@@ -1,0 +1,703 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass book
+\use_default_options true
+\begin_modules
+figs-within-sections
+tabs-within-sections
+logicalmkup
+\end_modules
+\language ngerman
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family sfdefault
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics dvipdf
+\float_placement tbh
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\pdf_bookmarks false
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine natbib_authoryear
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 2.5cm
+\topmargin 3cm
+\rightmargin 2.5cm
+\bottommargin 3cm
+\headheight 1cm
+\headsep 1.5cm
+\footskip 1.5cm
+\secnumdepth 3
+\tocdepth 2
+\paragraph_separation skip
+\defskip medskip
+\quotes_language german
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\bullet 1 0 9 -1
+\bullet 2 0 10 -1
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Projektbericht
+\begin_inset Newline newline
+\end_inset
+
+Thema x: Themenbezeichner
+\end_layout
+
+\begin_layout Author
+Max Mustermann, Maren Musterfrau, Paul Projektleiter
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList table
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Einleitung
+\end_layout
+
+\begin_layout Section
+Executive Summary
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Executive-Summary"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Kurze Zusammenfassung des Berichts mit den wesentlichen inhaltlichen Kernaussage
+n.
+\end_layout
+
+\begin_layout Itemize
+Einordnung in den Gesamtzusammenhang ihrer Lehrveranstaltung
+\end_layout
+
+\begin_layout Itemize
+Textuelle Erläuterung der inhaltlichen Struktur des Berichts
+\end_layout
+
+\begin_layout Section
+Ersteller des Berichts
+\end_layout
+
+\begin_layout Standard
+Der Bericht wurde durch die in Tabelle 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Ersteller-des-Berichts"
+
+\end_inset
+
+ aufgeführten Studentinnen und Studenten erstellt.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="60text%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Autor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+MatrNr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Inhaltliche Verantwortung
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Max Mustermann
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+123456
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kapitel x - y.
+ Stichpunktartige Aufzählung des inhaltlichen Beitrags
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Maren Musterfrau
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+654321
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kapitel n - m.
+ Stichpunktartige Aufzählung des inhaltlichen Beitrags
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Paul Projektleiter
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+321654
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kapitel l - k.
+ Stichtpunktartige Aufzählung des inhaltlichen Beitrags.
+ Projektkoordination und Abschlussbericht
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Ersteller-des-Berichts"
+
+\end_inset
+
+Ersteller des Berichts
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Erstes Inhaltskapitel
+\end_layout
+
+\begin_layout Standard
+Vermeiden Sie eine Gliederungstiefe größer als drei.
+\end_layout
+
+\begin_layout Standard
+Referenzieren Sie Ihre Quellen bitte in dieser Form (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Kratzke2007"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Siegfried2010"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Standard
+Betten Sie Ihre Tabellen und Abbildungen bitte als Gleitobjekte ein.
+ Referenzieren sie alle Tabellen und Abbildungen innerhalb des Textes durch
+ Querverweise (vgl.
+ Tabelle 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Ersteller-des-Berichts"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Wenn Sie innerhalb ihres Berichts referenzieren, referenzieren sie den kleinstmö
+glichen Abschnitt in folgender Form (wie in Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Executive-Summary"
+
+\end_inset
+
+ erläutert, vgl.
+ Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Executive-Summary"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Standard
+Fassen Sie sich kurz.
+ Schreiben Sie verständlich.
+ Schreiben Sie möglichst einfache Sätze.
+\end_layout
+
+\begin_layout Standard
+Vermeiden Sie 
+\begin_inset Quotes gld
+\end_inset
+
+Einzelblätter
+\begin_inset Quotes grd
+\end_inset
+
+ im Überschriftenbaum (keine alleinstehende x.1 Überschrift, wenn kein x.2
+ folgt).
+\end_layout
+
+\begin_layout Standard
+Entscheiden Sie sich, ob Sie ihr Beispiel in die laufende Erläuterung einflechte
+n möchten, oder ob Sie ihr Beipiel in einem gesonderten Beispielkapitel
+ erläutern wollen.
+ Vermeiden Sie eine Mischform, wenn möglich.
+\end_layout
+
+\begin_layout Section
+Nummerierte Abschnitte
+\end_layout
+
+\begin_layout Standard
+Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor
+ incidunt ut labore et dolore magna aliqua.
+ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+ ut aliquid ex ea commodi consequat.
+ Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat
+ nulla pariatur.
+ Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia
+ deserunt mollit anim id est laborum.
+ 
+\end_layout
+
+\begin_layout Standard
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+ consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
+ accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit
+ augue duis dolore te feugait nulla facilisi.
+ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+ nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+ Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+ lobortis nisl ut aliquip ex ea commodo consequat.
+ 
+\end_layout
+
+\begin_layout Standard
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+ consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
+ accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit
+ augue duis dolore te feugait nulla facilisi.
+ Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+ doming id quod mazim placerat facer possim assum.
+ 
+\end_layout
+
+\begin_layout Standard
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+ nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+ Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+ lobortis nisl ut aliquip ex ea commodo consequat.
+ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+ consequat, vel illum dolore eu feugiat nulla facilisis.
+ At vero eos et accusam et justo duo dolores et ea rebum.
+ Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+ sit amet.
+ 
+\end_layout
+
+\begin_layout Standard
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+ eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+ voluptua.
+ At vero eos et accusam et justo duo dolores et ea rebum.
+ Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+ sit amet.
+ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam
+ diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et
+ invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum.
+ sanctus sea sed takimata ut vero voluptua.
+ est Lorem ipsum dolor sit amet.
+ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+ eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+ Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+ labore et dolore magna aliquyam erat, sed diam voluptua.
+ At vero eos et accusam et justo duo dolores et ea rebum.
+ Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+ sit amet.
+ 
+\end_layout
+
+\begin_layout Standard
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+ eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+ voluptua.
+ At vero eos et accusam et justo duo dolores et ea rebum.
+ Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+ sit amet.
+ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+ eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+ voluptua.
+ At vero eos et accusam et justo duo dolores et ea rebum.
+ Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+ sit amet.
+\end_layout
+
+\begin_layout Subsection
+Nummerierte Unterabschnitte
+\end_layout
+
+\begin_layout Standard
+Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor
+ incidunt ut labore et dolore magna aliqua.
+ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+ ut aliquid ex ea commodi consequat.
+ Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat
+ nulla pariatur.
+ Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia
+ deserunt mollit anim id est laborum.
+ 
+\end_layout
+
+\begin_layout Standard
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+ consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
+ accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit
+ augue duis dolore te feugait nulla facilisi.
+ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+ nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+ Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+ lobortis nisl ut aliquip ex ea commodo consequat.
+ 
+\end_layout
+
+\begin_layout Standard
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+ consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
+ accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit
+ augue duis dolore te feugait nulla facilisi.
+ Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+ doming id quod mazim placerat facer possim assum.
+ 
+\end_layout
+
+\begin_layout Standard
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+ nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+ Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+ lobortis nisl ut aliquip ex ea commodo consequat.
+ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+ consequat, vel illum dolore eu feugiat nulla facilisis.
+ At vero eos et accusam et justo duo dolores et ea rebum.
+ Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+ sit amet.
+ 
+\end_layout
+
+\begin_layout Standard
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+ eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+ voluptua.
+ At vero eos et accusam et justo duo dolores et ea rebum.
+ Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+ sit amet.
+ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam
+ diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et
+ invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum.
+ sanctus sea sed takimata ut vero voluptua.
+ est Lorem ipsum dolor sit amet.
+ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+ eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+ Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+ labore et dolore magna aliquyam erat, sed diam voluptua.
+ At vero eos et accusam et justo duo dolores et ea rebum.
+ Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+ sit amet.
+ 
+\end_layout
+
+\begin_layout Standard
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+ eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+ voluptua.
+ At vero eos et accusam et justo duo dolores et ea rebum.
+ Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+ sit amet.
+ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+ eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+ voluptua.
+ At vero eos et accusam et justo duo dolores et ea rebum.
+ Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+ sit amet.
+\end_layout
+
+\begin_layout Subsection
+Nummerierter Unterabschnitt
+\end_layout
+
+\begin_layout Standard
+Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor
+ incidunt ut labore et dolore magna aliqua.
+ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+ ut aliquid ex ea commodi consequat.
+ Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat
+ nulla pariatur.
+ Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia
+ deserunt mollit anim id est laborum.
+ 
+\end_layout
+
+\begin_layout Standard
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+ consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
+ accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit
+ augue duis dolore te feugait nulla facilisi.
+ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+ nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+ Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+ lobortis nisl ut aliquip ex ea commodo consequat.
+ 
+\end_layout
+
+\begin_layout Standard
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+ consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
+ accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit
+ augue duis dolore te feugait nulla facilisi.
+ Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+ doming id quod mazim placerat facer possim assum.
+ 
+\end_layout
+
+\begin_layout Standard
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+ nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+ Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+ lobortis nisl ut aliquip ex ea commodo consequat.
+ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+ consequat, vel illum dolore eu feugiat nulla facilisis.
+ At vero eos et accusam et justo duo dolores et ea rebum.
+ Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+ sit amet.
+ 
+\end_layout
+
+\begin_layout Standard
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+ eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+ voluptua.
+ At vero eos et accusam et justo duo dolores et ea rebum.
+ Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+ sit amet.
+ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam
+ diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et
+ invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum.
+ sanctus sea sed takimata ut vero voluptua.
+ est Lorem ipsum dolor sit amet.
+ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+ eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+ Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+ labore et dolore magna aliquyam erat, sed diam voluptua.
+ At vero eos et accusam et justo duo dolores et ea rebum.
+ Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+ sit amet.
+ 
+\end_layout
+
+\begin_layout Standard
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+ eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+ voluptua.
+ At vero eos et accusam et justo duo dolores et ea rebum.
+ Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+ sit amet.
+ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+ eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+ voluptua.
+ At vero eos et accusam et justo duo dolores et ea rebum.
+ Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+ sit amet.
+\end_layout
+
+\begin_layout Chapter
+Zusammenfassung
+\end_layout
+
+\begin_layout Standard
+Detailliertere Zusammenfassung der dargestellten Sachverhalte als das Executive
+ Summary in Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Executive-Summary"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Kernaussagen mit Verweisen auf Ihre Abschnitte zusammenführend und den Gesamtkon
+text berücksichtigend auf den Punkt bringen.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "./mypubs-utf8"
+options "plainnat"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
