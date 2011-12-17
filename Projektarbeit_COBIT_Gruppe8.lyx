@@ -1,0 +1,1297 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass book
+\use_default_options true
+\begin_modules
+figs-within-sections
+tabs-within-sections
+logicalmkup
+\end_modules
+\maintain_unincluded_children false
+\language ngerman
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family sfdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics dvipdf
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement tbh
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\pdf_bookmarks false
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine natbib_authoryear
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Stichwortverzeichnis
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 3cm
+\rightmargin 2.5cm
+\bottommargin 3cm
+\headheight 1cm
+\headsep 1.5cm
+\footskip 1.5cm
+\secnumdepth 3
+\tocdepth 2
+\paragraph_separation skip
+\defskip medskip
+\quotes_language german
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\bullet 1 0 9 -1
+\bullet 2 0 10 -1
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Projektbericht
+\begin_inset Newline newline
+\end_inset
+
+Thema: COBIT
+\end_layout
+
+\begin_layout Author
+Alexander Wegner, Marius Ciepluch
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList table
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Einleitung
+\end_layout
+
+\begin_layout Section
+Executive Summary
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Executive-Summary"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+COBIT steht für 
+\begin_inset Quotes gld
+\end_inset
+
+Control Objectives for Information and Related Technology
+\begin_inset Quotes grd
+\end_inset
+
+.
+ Es handelt sich um ein IT Governance Framework, das sich nicht der Art
+ der Umsetzung widmet, sondern definiert welche Objekte umgesetzt werden
+ müssen.
+\end_layout
+
+\begin_layout Itemize
+es ist ein Mittel zum Aufbau von Kontrollstrukturen in Unternehmen, das
+ einen Top Down Steuerungsansatz benutzt.
+ Die Control Objectives sind dazu über 4 Domänen (insgesamt 34 IT Prozesse)
+ verteilt.
+\end_layout
+
+\begin_layout Itemize
+COBIT kann in Unternehmen in Phasen etabliert werden - in verschiedenen
+ Maturity Levels.
+\end_layout
+
+\begin_layout Itemize
+Innerhalb des Einsatzes können die Kontrollstrukturen verbessert werden
+ um die Effizienz von Unternehmensprozessen durch die gewonnen Erkenntnisse
+ zu steigern.
+ Dies geschieht über die Rückkopplung von Erkenntnissen über die verschiedenen
+ Domänen.
+ Um dies zu verdeutlichen wurden im folgenden Bericht die Domänen-Schnittstellen
+ visualisiert.
+\end_layout
+
+\begin_layout Itemize
+COBIT wird benutzt um auf strukturierte Weise Governance in Unternehmen
+ aufzubauen
+\end_layout
+
+\begin_layout Itemize
+es wird COBIT in der aktuellen Version 4.1 (Ende 2011) betrachtet.
+ Version 5 des Frameworks befindet sich noch in aktiver Entwicklung.
+\end_layout
+
+\begin_layout Section
+Ersteller des Berichts
+\end_layout
+
+\begin_layout Standard
+Der Bericht wurde durch die in Tabelle 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Ersteller-des-Berichts"
+
+\end_inset
+
+ aufgeführten Studentinnen und Studenten erstellt.
+ Jeder bearbeitete hauptverantwortlich zwei Domänen.
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="60text%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Autor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+MatrNr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Inhaltliche Verantwortung
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Alexander Wegner
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+123456
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PO1 - PO10, A11-A17,
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Marius Ciepluch
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+654321
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DS1 - DS13, ME1 - ME4 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+beide
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gruppe 8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Einleitung, Korrektur, Zusammenfassungen, Koordination
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Ersteller-des-Berichts"
+
+\end_inset
+
+Ersteller des Berichts
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Allgemeines zu COBIT
+\end_layout
+
+\begin_layout Standard
+Im Folgenden allgemeinen Abschnitt werden diese Fragen beantwortet:
+\end_layout
+
+\begin_layout Enumerate
+Wann sollte man COBIT einsetzen: welche Unternehmen sind Zielgruppe, und
+ welche Personengruppen in Unternehmen
+\end_layout
+
+\begin_layout Enumerate
+Wie ist der Aufbau von COBIT zu verstehen: die Verteilung von IT Prozessen
+ über Domänen
+\end_layout
+
+\begin_layout Enumerate
+Was sind die Maturity Levels: entscheidet man sich COBIT in einem Unternehmen
+ einzusetzen, muss man sich über eine Strategie entscheiden.
+ Woran kann man diese Strategie orientieren
+\end_layout
+
+\begin_layout Enumerate
+Welche Kontrollzyklen und Normen sind zusammen mit COBIT zu betrachten,
+ und die Geschäftsanforderungen umzusetzen?
+\end_layout
+
+\begin_layout Section
+Unternehmens- und Personen-Zielgruppen von COBIT
+\end_layout
+
+\begin_layout Standard
+COBIT unterstützt das IT-Management um Risiken abzuwägen und Kontrolle über
+ Investitionen zu behalten (Betriebswirtschaftliche IT).
+ Anwender von IT Diensten sollen beim fachgerechten und gewissenhaften Einsatz
+ der IT unterstützt werden (Produkt IT).
+ Revisoren, Wirtschaftsprüfer oder IT Spezialisten sollen ihre Analysen
+ mit Daten (aus zielgerichtet aufgebauten Informationsquellen und daraus
+ entstandenen Statistiken) belegen (Technische IT).
+ Die Governance, die durch COBIT aufgebaut wird, durchdringt also betriebswirtsc
+haftliche, produkt-technische und rein technische Bereiche der IT.
+\end_layout
+
+\begin_layout Standard
+Das COBIT Framework richtet sich vor allem an Unternehmen, in denen IT durch
+ den Geschäftszweck eine zentrale Bedeutung erlangt hat, und die eine komplexe
+ Unternehmensstruktur aufweisen.
+ Unternehmen möchten durch IT Wettbewerbsfähigkeit und Wettbewerbsvorteile
+ erlangen.
+ Daher muss IT an den Zielen und Unternehmensstrategieen ausgerichtet werden,
+ was eine wesentliche Aufgabe von IT Governance ist.
+\end_layout
+
+\begin_layout Standard
+Ferner natürlich sind Unternehmen Zielgruppe, die sich von der Rechtsform
+ her zum Aufbau von weitreichenden IT Kontrollstrukturen eignen.
+ Dies wird jedoch im nachfolgenden Bericht nicht vertieft.
+ 
+\end_layout
+
+\begin_layout Section
+Aufbau von COBIT in Domänen
+\end_layout
+
+\begin_layout Standard
+COBIT hat vier Hauptdomänen, in denen sich die Prozesse mit ihren Kontroll-Ziele
+n befinden:
+\end_layout
+
+\begin_layout Itemize
+PO steht für Planung und Organisation.
+ Diese Domäne fasst Prozesse zum Managen von Risiken und strategischer Ausrichtu
+ng der IT.
+\end_layout
+
+\begin_layout Itemize
+AI steht für Akquisition und Implementierung.
+ Hier geht um die Etablierung neuer Prozesse und Applikationen innerhalb
+ bestehender Infrastruktur.
+\end_layout
+
+\begin_layout Itemize
+DS steht für Delivery und Support.
+ Innerhalb von IT Governance wird hier Service-Level Management, Konfigurations-
+Management, Kostenmanagement, IT Sicherheit und IT Performance abgedeckt
+\end_layout
+
+\begin_layout Itemize
+ME steht für Monitoring und Überwachung.
+ Dieser Bereich dient der Gewährleistung unabhängiger Revision und der Erhöhung
+ des Vertrauensgrades.
+ 
+\end_layout
+
+\begin_layout Standard
+Dabei werden die sieben Informationskriterien berücksichtigt:
+\end_layout
+
+\begin_layout Itemize
+Konformität
+\end_layout
+
+\begin_layout Itemize
+Vertraulichkeit
+\end_layout
+
+\begin_layout Itemize
+Integrität
+\end_layout
+
+\begin_layout Itemize
+Verfügbarkeit 
+\end_layout
+
+\begin_layout Itemize
+Zuverlässigkeit 
+\end_layout
+
+\begin_layout Itemize
+Effektivität
+\end_layout
+
+\begin_layout Itemize
+Einhaltung rechtlicher Erfordernisse (Compliance)
+\end_layout
+
+\begin_layout Standard
+Außerdem werden die fünf Ressourcen berücksichtigt, auf denen Geschäftsprozesse
+ basieren
+\end_layout
+
+\begin_layout Itemize
+Menschen (Human Ressources)
+\end_layout
+
+\begin_layout Itemize
+Gebäude (Facilities)
+\end_layout
+
+\begin_layout Itemize
+Technologieen 
+\end_layout
+
+\begin_layout Itemize
+Anwendungssysteme 
+\end_layout
+
+\begin_layout Itemize
+Daten
+\end_layout
+
+\begin_layout Standard
+Es gibt keine Aufführung von Management-Instrumenten, keine Verteilung von
+ Verantwortlichkeiten und wenige Rollen- und Berechtigungskonzepte.
+ Funktionstrennung und Schnittstellenüberwachung sind nicht im Framework
+ konkretisiert.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /home/wishi/Screen shot 2011-12-17 at 15.56.51.png
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Maturity Levels
+\end_layout
+
+\begin_layout Standard
+Zur Etablierung von COBIT
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Subsection
+Kontrollzyklen und Normen
+\end_layout
+
+\begin_layout Standard
+EFQM, CMM/Spice, BSC, Deming Kontrollzyklus, RACI Charts (wichtig!)
+\end_layout
+
+\begin_layout Subsection
+Zusammenfassung in Stichpunkten
+\end_layout
+
+\begin_layout Standard
+Die 5 wichtigsten Punkte.
+\end_layout
+
+\begin_layout Chapter
+Das COBIT Domänen-Modell
+\end_layout
+
+\begin_layout Section
+PO - Planung und Organisation 
+\end_layout
+
+\begin_layout Standard
+Diese Domäne beschäftigt sich mit der Strategie und der Taktik der IT, um
+ raus zufinden, wie man am besten die Erreichung der Geschäftsziele unterstützt.
+ Die Umsetzung dieser Strategie muss geplant, kommuniziert und durchgeführt
+ werden.
+ 
+\end_layout
+
+\begin_layout Subsection
+PO1.
+ Definieren eines strategischen Planes 
+\end_layout
+
+\begin_layout Standard
+Eine strategische Planung ist für jeden Unternehmensbereich wichtig, da
+ diese den Künftigen Erfolg es Unternehmens sichert, das gilt auch für den
+ IT Bereich.
+\end_layout
+
+\begin_layout Standard
+Strategische Planung dient als Basis für die Lösung bei folgenden Aufgaben:
+ - alle IT-Ressourcen in Übereinstimmung mit Unternehmensstrategie und Priorität
+en des Unternehmens zu verwalten und zu steuern.
+ - Bewerten der gegenwärtigen Leistung des Unternehmens - Stütze um den
+ Umfang von notwendigen und zukünftigen Investitionen zu ermitteln.
+ - Aufweisen der Möglichkeiten und Grenzen von IT in einem Unternehmen -
+ Sicherstellen der Zukunft des IT-Bereichs und somit des gesamten Unternehmens
+\end_layout
+
+\begin_layout Standard
+Eine langfristige IT-Strategie ist auf die Unterstützung der Geschäftsziele
+ ausgerichtet und wird aus Geschäftsstrategie entwickelt.
+ Aus Strategie werden Pläne und um diese umsetzbar zu gestallten sind zwei
+ Aspekte zu beachten: Als erstes eine Betrachtung auf dem Markt vorhandenen
+ Technischen Lösungen und zweitens in dem Unternehmen vorhandene Infrastruktur.
+ Im Laufe des Prozesses wird Erfolg der Strategie bewertet und gegebenenfalls
+ angepasst bzw.
+ verändert.
+\end_layout
+
+\begin_layout Standard
+Kontrolle über den IT-Prozess wird erreicht durch: Geschäftsleitung sollte
+ folgende Forraussetzungen erfüllen: Verstehen des derzeitigen IT-Potentials
+ sowie Erstellung eines Schemas für die Priorisierung von Geschäftszielen,
+ das die Geschäftsanforderungen misst.
+ Und die Kontrolle über den IT-Prozess wird gemessen durch: - Prozent der
+ IT-Ziele im strategischen IT-Plan, die den strategischen Unternehmensplan
+ unterstützen - Prozent der IT-Projekte im IT-Projektportfolio, die direkt
+ auf den taktischen IT-Plan zurückgeführt werden können 
+\end_layout
+
+\begin_layout Subsection
+PO2.
+ Definieren der Informationsarchitektur 
+\end_layout
+
+\begin_layout Standard
+Der Prozess PO1 hat eine IT-Strategie und die taktischen Pläne geliefert,
+ auf deren Grundlage wird dann ein Architekturmodell erstellt.
+ In dem Prozess werden das Datenmodell und die zugehörigen Informationssysteme,
+ die zur Abbildung des Geschäftes notwendig sind, entwickelt.
+ Dies umfasst die Entwicklung eines unternehmensweiten Datenkatalogs, das
+ die Syntaxregeln, ein Datenklassifikationsschema und Sicherheitsstufen
+ festlegt.
+\end_layout
+
+\begin_layout Standard
+Ziel des Architekturmodels ist: - Optimiert des Zusammenspiels aller eingesetzte
+n Informationssysteme und Daten - Verbessert die Qualität der Entscheidungsfindu
+ng des Managements (Infos sind verlässlich und gesichert) - Verbessert Verantwor
+tung für die Integrität und Sicherheit der Daten - Verbessert Steuerungsmöglichk
+eit über die gemeinsame Verwendung von Informationen
+\end_layout
+
+\begin_layout Standard
+Die Erstellung eines solchen Modells muss in regelmäßigen Abständen wiederholt
+ werden, weil sich Technologien ständig weiter entwickeln.
+\end_layout
+
+\begin_layout Standard
+Kontrolle über den IT-Prozess wird erreicht durch - die Sicherstellung der
+ Genauigkeit der Informationsarchitektur sowie des Datenmodells - die Zuweisung
+ von Datenverantwortlichkeiten - die Klassifikation der Informationen unter
+ Anwendung eines vereinbarten Klassifikationsschemas Und Kontrolle über
+ den IT-Prozess wird gemessen durch - den Prozentanteil der doppelten Dateneleme
+nte - den Prozentanteil der Applikationen, welche nicht den Anforderungen
+ der Informationsarchitektur genügen 
+\end_layout
+
+\begin_layout Subsection
+PO3.
+ Festlegen der technischen Ausrichtung 
+\end_layout
+
+\begin_layout Standard
+Da Die Technologien sich ständig weiter entwickeln bzw.
+ ändern, müssen vorhandene und Potenzielle Technologien ausgehend von der
+ IT-Strategie in regelmäßigen Abständen auf Verwendbarkeit und Einsatzfähigkeit
+ untersucht und bewertet werden.
+ Das wichtigste Kriterium dabei ist Unterstützung des Geschäftsprozesses.
+ Ziel ist das ausnutzen des Vorteils von Verfügbarkeit neuer Technologien
+ um die Unterstützung und Entwicklung der Geschäftsstrategie zu gewährleisten.
+ Kontrolle über den IT-Prozess, wird erreicht durch - Aufstellung eines
+ Gremiums, um die Architektur anzuleiten und auf Regeltreue zu überprüfen
+ - Erstellung des technischen Infrastrukturplans, welcher Kosten, Risiken
+ und Anforderungen im Gleichgewicht hält - Festlegung der technischen Infrastruk
+turstandards, basierend auf den Anforderungen der Informationsarchitektur
+ Kontrolle über den IT-Prozess wird gemessen durch - Anzahl und Typ der
+ Abweichungen vom technologischen Infrastrukturplan - Häufigkeit der Aktualisier
+ungen des technologischen Infrastrukturplans - Anzahl der technologischen
+ Plattformen nach Funktion im gesamten Unternehmen 
+\end_layout
+
+\begin_layout Subsection
+PO4 Definieren der IT-Organisation und ihrer Beziehungen: 
+\end_layout
+
+\begin_layout Standard
+Eine IT-Organisation muss unter Berücksichtigung der Anforderungen in transparen
+te, flexiblen und reagierende IT-Organisationseinheiten aufgeteilt werden
+ und es müssen Verantwortlichkeiten und Rollen festgelegt werden.
+ Die Beschreibung einer IT-Organisation sollte die folgenden Elemente umfassen
+ und berücksichtigen: Strukturierung der IT auf vier Ebenen: - IT-Funktionen,
+ IT-Abteilungen, IT-Leitung, IT-Steuerungsgremien.
+ - Beschreiben der Rollen, Aufgaben, Kompetenzen und Verantwortlichkeiten
+ für alle vier Ebenen.
+ - Beschreibung der Aufgabentrennungen und Überwachungen.
+\end_layout
+
+\begin_layout Standard
+Beispiel für Rollenverteilung: IT-Systemadministrator/in, IT-Anwenderin/in,
+ IT-Abteilungsleiter, IT-Systembetreuer.
+\end_layout
+
+\begin_layout Standard
+Kontrolle über den IT-Prozess, wird erreicht durch - Festlegung eines Frameworks
+ der IT-Prozesse - Aufstellung von angemessenen Organisationseinheiten und
+ -strukturen - Festlegung von Rollen und Verantwortlichkeiten und gemessen
+ durch - Prozent der Rollen mit dokumentierten Stellenbeschreibungen und
+ Befugnissen - Anzahl der Unternehmenseinheiten, die nicht durch die IT
+ unterstützt werden, die aber gemäß der Strategie unterstützt werden sollten
+ - Anzahl der wesentlichen IT-Aktivitäten außerhalb der IT-Organisation,
+ die nicht genehmigt sind oder die nicht den IT-Organisationsstandards entsprech
+en 
+\end_layout
+
+\begin_layout Subsection
+PO5 IT-Investitionsmanagement: 
+\end_layout
+
+\begin_layout Standard
+Planung und Aufstellung eines Budgets ist für eine Unternehmenseinheit,
+ in diesem Fall IT, erforderlich um Kosten im Überblick zu behalten und
+ um Ausgaben planen zu können und somit eine hohe finanzielle Sicherheit
+ sicher zu stellen.
+ Das hilft dem Kerngeschäft die Kosten für Prozesse genauer zu berechnen,
+ zu planen und damit Erfolg der Gesamtunternehmung zu gewährleisten.
+ 
+\end_layout
+
+\begin_layout Subsection
+PO6 Kommunizieren der Management-Ziele und Strategien 
+\end_layout
+
+\begin_layout Standard
+Die vorhandenen Informationen und vor allem Ziele und Strategien des Unternehmen
+s in diesem Fall des IT-Bereichs sollen den Mitarbeitern mitgeteilt werden.
+ Es ist wichtig, dass diese Informationen in geeigneter Form zu kommunizieren
+ damit diese allen Mitarbeitern bewusst werden.
+ In diesem Fall können sich die Mitarbeiter auf die Ziele und Strategien
+ einstellen und somit qualitativ höhere Leistung erbringen.
+\end_layout
+
+\begin_layout Standard
+Beispiel: In dem Studiengang Informatik/Softwaretechnik soll die Fähigkeit
+ im Team zu arbeiten gefördert werden, dieses Ziel sollte an die Lehrenden
+ in dieser FH in anwendbaren und praktikablen Anweisungen Kommuniziert werden
+ damit diese Ziele umgesetzt werden können.
+ 
+\end_layout
+
+\begin_layout Subsection
+PO7 Personalführungsmanagement 
+\end_layout
+
+\begin_layout Standard
+Der Erfolg einer Organisation ist von der Einstellungen und Fähigkeiten
+ der Menschen die in dieser Organisation tätig sind sehr stark abhängig.
+ Ziel des IT Bereichs ist fähige Mitarbeiter einzustellen und diese dann
+ langfristig zu binden sowie auch die Motivation dieser Mitarbeiter aufrecht
+ zu erhalten.
+ 
+\end_layout
+
+\begin_layout Subsection
+PO8 Qualitätsmanagement 
+\end_layout
+
+\begin_layout Standard
+Kunden erwarten eine immer höhere Qualität bei gleichzeitiger Kostensenkung.
+ Um diese Anforderung zu erfüllen ist Qualitätsmanagement erforderlich.
+ Dieser muss eine Organisation an jeder Stelle durchdringen und von jedem
+ Mitarbeiter in jedem System gespürt werden auf der anderen Seite müssen
+ die Kosten gering gehalten werden.
+ 
+\end_layout
+
+\begin_layout Subsection
+PO9 Risikomanagement 
+\end_layout
+
+\begin_layout Standard
+Risiken sind bei dem Ansatz von Menschen sowie Technologien immer vorhanden.
+ Es gibt Externe Risiken wie z.B.
+ Erdbeben und interne Risiken die eher Wahrscheinlich sind und auf diese
+ Risiken sollte man vorbereitet sein.
+ Das Ziel ist Ermitteln der Risiken um auf diese reagieren zu können.
+\end_layout
+
+\begin_layout Subsection
+PO10 Projektmanagement 
+\end_layout
+
+\begin_layout Standard
+Zur Durchführung der IT Aufgaben werden in einer IT-Organisation verschiedene
+ Projekte was die Art und die Größe angeht durchgeführt.
+ Die wichtigsten drei Faktoren an denen ein Projekt oft scheitert sind:
+ Zeit, Qualität, Kosten.
+ Ein professionell durchgeführtes Projektmanagement kann die Risiken, die
+ mit dem Projekt verbunden sind deutlich senken.
+ Das in PO9 erläuterte Risikomanagement sollte sich daher auch auf die Risiken
+ im Projekt erstrecken.
+\end_layout
+
+\begin_layout Section
+Beispiel
+\end_layout
+
+\begin_layout Standard
+In einer FH ist das „Kerngeschäft“ unter anderem Ausbildung von Nachwuchskräften.
+ Um den Nachhaltigen integrierten Technikeinsatz zu gewährleisten der diese
+ Aufgabe unterstützt, werden basiert auf einer Bestandsaufnahme die notwendigen
+ Ausbaustuffen für die IT-Ausstattung entwickelt.
+ Dieses Vorgehen beschreibt ein Teil des Strategischen Planes.
+ Da an einer FH eine Große menge an Daten für die Benutzer wie z.B.
+ Scripte, Stundenpläne Online bereitgestellt werden, muss z.B.
+ folgende Frage beantwortet werden: „Wie werden Inhalte für bestimmte Zielgruppe
+n bereitgestellt“? Die Antwort auf diese Frage werden also bei der Erstellung
+ der Informationsarchitektur berücksichtigt und z.B.
+ die nötigen Sicherheitsstufen festgelegt.
+ Festlegen der technischen Ausrichtung an einer FH könnte man sich an dem
+ folgenden Beispiel veranschaulichen: Als sich z.B.
+ in der Mitte der 1990 der Trend für Internetgestütztes lernen auszeichnete,
+ bewertet viele Hochschulen diese Entwicklung mit dem Ziel diese neue Möglichkei
+t zu etablieren um qualitativ höhere Gestaltung der Lehre zu ermöglichen.
+ In der Fachhochschule Lübeck z.B.
+ wird Moodle (Lernraum) seit 2007 produktiv eingesetzt.
+ Einsatz dieser Technologie würde Vorteile den Hochschulen gegenüber verschaffen
+ die diese Technologie nicht einsetzen.
+ Beispiel für IT-Investitionsmanagements an einer FH: Bevor FH-Lübeck in
+ die Erneuerung der Ausstattung eines Labors Investiert, wird erstmal eine
+ Kosten/Nutzen Analyse erstellt.
+ Diese Beinhaltet z.B.
+ auf der Kostenseite: Kosten für Hard- und Software, Kosten für Trainer
+ und auf Nutzenseite: Aktualität, besserer Lernerfolg wenn Nutzenseite überwiegt
+ wird Investiert sonst nicht.
+ Kommunizieren der Management-Ziele und Strategien an einer FH könnte z.B.
+ so aussehen: In dem Studiengang Informatik/Softwaretechnik soll die Fähigkeit
+ im Team zu arbeiten gefördert werden, dieses Ziel sollte an die Lehrenden
+ in dieser FH in anwendbaren und praktikablen Anweisungen Kommuniziert werden
+ damit diese Ziele umgesetzt werden können.
+ Um einen Qualifizierenden Lehrenden jedoch langfristig an der FH behalten
+ zu können kommt Personalführungsmanagement ins Spiel.
+ Es sind unter anderem folgende Faktoren die in dem Zusammenhang eine Rolle
+ spielen: Aufstiegsmöglichkeiten, Vergütung.
+ Beispiel für Qualitätsmanagement sowie Risikomanagement: An der FH müssen
+ Einkaufs- und Wartungsrichtlinien für PCs beachtet werden in denen z.B.
+ vorgeschrieben ist wie oft die PCs gewartet werden.
+ Risikomanagement verhindert unter anderem, dass ein Virus das FH Netzwerk
+ infiltriert und diesen schädigt dafür wird jeder Rechner mit dem einem
+ Anti-Virus Programm ausgestattet.
+ Das Virusprogramm wird auch jedem studierenden kostenlos angeboten.
+ 
+\end_layout
+
+\begin_layout Section
+AI
+\end_layout
+
+\begin_layout Subsection
+Beispiel
+\end_layout
+
+\begin_layout Section
+Delivery und Support
+\end_layout
+
+\begin_layout Subsection
+DS1
+\end_layout
+
+\begin_layout Standard
+Es muss der Bedarf des geforderten Services zwischen Kunden, IT-Organisationen
+ und Zulieferern ermittelt werden.
+ Dies bezeichnet man als Defintion von “Service Leveln”.
+ Der Kunde hat einen Grundbedarf an Service, der im Service Level als Leistungsk
+riterium für Qualität und Quantität formalisiert dargestellt wird.
+ Dazu trifft man Vereinbarungen, die vertraglich festgehalten werden.
+ Die festgehaltenen Service Level werden regelmäßig mit der Realität verglichen,
+ um Maßnahmen zur Verbesserung festzulegen
+\end_layout
+
+\begin_layout Standard
+Beispiel: An der FH werden Getränkeautomaten betrieben, die von den Kunden
+ (Studierende, Mitarbeiter) genutzt werden.
+ Die verschiedenen Getränke sollten alle verfügbar sein, an jedem Automat,
+ in ausreichender Anzahl, in entsprechender Qualität (Haltbarkeit, Marke).
+ Hierzu ist es nötig zu definieren was die FH Lübeck erwartet.
+ Der externe Zulieferer wird als “underpinning contracter” bezeichnet (DS
+ 2)
+\end_layout
+
+\begin_layout Subsection
+DS 2: Lieferanten Management 
+\end_layout
+
+\begin_layout Standard
+Hier wird die Zulieferung bezüglich der in DS 1 getroffenen Service Level
+ Absprachen betrachtet.
+ Eine Lieferung stellt ein Risiko dar: Vorkasse, Versicherung, Beschädigung,
+ Pünktlichkeit sind Aspekte die dies verdeutlichen.
+ Die Rollen der Verantwortlichen müssen klar festgelegt werden.
+\end_layout
+
+\begin_layout Standard
+Beispiel: Die Abhängigkeit des Getränkeverkaufes (interne Anforderung) von
+ der Lieferung (externe Anforderung) macht es nötig Kontrolle auf den Prozess
+ auszuüben.
+ Wenn die an der FH bestellten Getränke mit DHL*** kommen, aber keiner den
+ Schlüssel für den Getränkeautomaten hat, kann trotzdem nicht an den Automaten
+ verkauft werden.
+ Daher muss die Rolle klar sein, ob jemand in der FH den Automaten befüllt,
+ oder ob es einen Lieferservice gibt, der die Bestückung ebenso übernimmt.
+ 
+\end_layout
+
+\begin_layout Subsection
+DS 3: Performance und Kapazitätsmanagement 
+\end_layout
+
+\begin_layout Standard
+Die Anforderungen an die Systeme werden überwacht.
+\end_layout
+
+\begin_layout Standard
+Beispiel: wie oft wird ein Getränkeautomat frequentiert (benutzt).
+ Werden alle Getränkeautomaten im Flur genutzt oder nur die neben dem warmen
+ Rechenzentrum.
+ - Müssen daher alle gleichermaßen bestückt und betrieben werden.
+ Muss der Getränkeautomat im obersten Flur (der nachts abgeschlossen ist)
+ auch nachts kühlen?
+\end_layout
+
+\begin_layout Standard
+*** 
+\end_layout
+
+\begin_layout Subsection
+DS 4: Continuity Management 
+\end_layout
+
+\begin_layout Standard
+Im Falle einer Störung muss der Weiterbetrieb gewährleistet werden.
+ Hierbei werden allerdings nicht nur größere Störungen betrachtet, sondern
+ auch kleinere Alltagsstörungen, die den Betrieb trotzdem empfindlich gefährden
+ können.
+ Die Auswirkungen auf das Geschäft sollen minimiert werden.
+\end_layout
+
+\begin_layout Standard
+Beispiel: Ein Stromausfall im Cluster, der komplexe Berechnungen zur Schwarmtheo
+rie leistet, kann zu einem kompletten Systemverlust führen wenn die Integrität
+ beschädigt wird.
+ Um vor Stromausfällen zu schützen kann man USVs einsetzen.
+ Der Einsatz von anderen Maßnahmen zur Sicherung der Ergebnisse oder Fortführung
+ des Betriebes wird in Fault-Trees modelliert.
+ 
+\end_layout
+
+\begin_layout Subsection
+DS 5: Security Management 
+\end_layout
+
+\begin_layout Standard
+Sicherheit in Unternehmen muss effizient sein, sollte jedoch idealerweise
+ die Arbeitsprozesse nicht zu behindern.
+ Dennoch haben die Anforderungen an Sicherheit heutzutage eine hohe Dynamik.
+\end_layout
+
+\begin_layout Standard
+Beispiel: Es gibt gesetzliche Auflagen nach denen in Bereichen, in denen
+ sensible Daten in der IT gehandhabt werden, ein Level an Compliance nachzuweise
+n ist, das ein Mindestmaß an IT Sicherheit darstellt.
+ An der FH Lübeck betrifft das beispielsweise den Netzzugang, der speziell
+ überwacht werden muss, damit keine Spam EMail oder ähnliches aus dem FH
+ Netz ins WAN vordringt.
+\end_layout
+
+\begin_layout Subsection
+DS 6: Kostenmanagement
+\end_layout
+
+\begin_layout Standard
+Um die Kosten eines Service im Griff zu halten ist es nötig Kostentreiber
+ im Unternehmen zu identifizieren, sodass die Kostenentwicklung in Betracht
+ gezogen werden kann.
+ Auf die Kostentreiber kann eingewirkt werden um Kosten zu senken.
+ Je nach Service Level entstehen unterschiedliche Kostenstrukturen, die
+ an messbaren Ressourcen identifiziert werden müssen.
+ Unnötige Ressourcen sollen in eine Kostenüberwachung fließen.
+ Durch exakte Zuweisung können die Kosten mit externen Anbietern verglichen
+ werden - für den Vergleich müssen jedoch die entsprechenden Kenntnisse
+ vorhanden sein, d.
+ h.
+ Kostentreiber identifiziert und exakt berechnet sein.
+ Andernfalls besteht die Gefahr unzulässige Vergleiche anzustellen.
+ Mit der Verrechnung der Kosten sind Mittel vorhanden, die die Refinanzierung
+ der IT Infrastruktur ermöglichen.
+ IT Mittel im Jahresbudget muss die organisatorischen Anforderungen der
+ Firma und die Verrechnungen beim Anwender enthalten.
+ PO 5 - Investitionsplanung - muss dabei explizit berücksichtigt werden.
+\end_layout
+
+\begin_layout Standard
+Das Kostenmanagement steht in verschiedenen Beziehungen mit anderen Prozessen:
+\end_layout
+
+\begin_layout Standard
+PO4, PO5, PO10, DS1 -> Kostenmanagement (IT Finanzen PO5 , Prozess, Performance-
+Berichte ME1)
+\end_layout
+
+\begin_layout Standard
+(Abbildung folgt - Nachbearbeitung - Tool Absprache)
+\end_layout
+
+\begin_layout Standard
+Eine reine Betrachtung nach Kosteneffizienz ist nicht möglich, da die Leistungsf
+ähigkeit der Komponenten in direkter Relation zur Effizienz steht.
+\end_layout
+
+\begin_layout Standard
+offene Fragen: Was ist Compliance bei einem Kostenmodell?
+\end_layout
+
+\begin_layout Standard
+Beispiel: Die für die Studententerminals nötigen Anwendungsprogramme sind
+ veraltet und es müssen neue angeschafft werden, um mit dem Fortschritt
+ schritt zu halten und neue Systeme zu unterstützen.
+ Speziell bei einigen PC Systemen fällt allerdings auf, dass sie nicht mehr
+ kompatibel sind, da die entsprechende Software explosionsartig höhere Systemanf
+orderungen stellt.
+ Entsprechend muss diese Software als Kostentreiber identifiziert werden
+ und ihr Bedarf muss evaluiert werden hinsichtlich der Notwendigkeit um
+ das für die Studenten nötige Service Level zu erbringen.
+ Es kann nicht lediglich auf den Preis geachtet werden, denn wenn die Software
+ für die Fortführung eines Studienganges von essentieller Bedeutung ist,
+ wäre der Service an sich gefährdet.
+ Allerdings kann ein externer Anbieter, beispielsweise ein “Cloud Service”,
+ der per Remote Service jene Software zu einem Festpreis zur Verfügung stellt,
+ günstiger sein, als alle lokalen Clients zu updaten.
+ Sofern der Service gleichwertig ist, und die Verfügbarkeit zu den Ballungszeite
+n gewährleistet ist (Praktikum, alle Studentzen nutzen den Client gleichzeitig
+ um sich zu verbinden).
+ 
+\end_layout
+
+\begin_layout Subsection
+DS7: Anwendungsschulung und Training
+\end_layout
+
+\begin_layout Standard
+Ein neues IT System allein bildet ohne entsprechende Anwenderkompetenz keinen
+ Mehrwert für das Unternehmen.
+ Die Anwenderkompetenz kann durch Mitarbeiter-Schulungen und Training gesteigert
+ werden.
+ Diese Kompetenz umfasst ebenso Risikobewusstsein bei den Verantwortlichkeiten
+ im Einsatz.
+ Für neue Mitarbeiter können spezielle Security Trainings verpflichtend
+ sein, oder für Security Management oder Administration.
+ Die Durchführung der Schulungen ist in einem Curriculum festzuhalten, das
+ als Schuldungsplan fungiert.
+ Hierbei jedoch sind die Schulungsmethoden zu evaluieren, da es sich um
+ den Einkauf zusätzlicher externe Leistungen handeln kann, oder um ein eigens
+ entwickeltes Trainingssystem.
+\end_layout
+
+\begin_layout Standard
+Beispiel: Mitarbeiter aus dem Bereich Elektrotechnik, die in der Digitalen
+ Signalverarbeitung tätig sind, müssen in der Lage sein mit dem angeschafften
+ Spectrum Analyzer oder dem Oszilloskop umzugehen.
+ Reicht es eine interne Einweisung zu bekommen, oder ist das System derart
+ komplex, dass ein Dienstleister eine Schulung leisten muss.
+ 
+\end_layout
+
+\begin_layout Subsection
+DS 8: Anwenderunterstützung
+\end_layout
+
+\begin_layout Standard
+Betreffend DS 7 stellt DS 8 die Unterstützung für den Gebrauch der Systeme.
+ Mitarbeiter müssen die IT Systeme auch praktisch bedienen können, und oft
+ ergeben sich beim Einsatz trotz Schulungen offene Fragen.
+\end_layout
+
+\begin_layout Standard
+A14-17, DS1, DS4, DS5, DS9, DS10, DS 13 -> Anwenderunterstützung Service
+ Requests - > A16 Vorfalls-Berichte -> DS 10 Anwenderzufriedenheit -> DS
+ 7, ME 1 Prozess, Performance Berichte -> ME 1
+\end_layout
+
+\begin_layout Standard
+Beispiel: Für die Laborgeräte im Labor gibt es Support-Hotlines, die angerufen
+ werden können, bei speziellen Fragen zu Einsatz.
+\end_layout
+
+\begin_layout Subsection
+DS 9: Konfigurationsmanagement
+\end_layout
+
+\begin_layout Standard
+Konfigurationsmanagement ist eine der Kernaufgaben der IT, da unautorisierte
+ Veränderungen verhindert werden müssen, physische Existenz nachzuweisen
+ ist, und damit Veränderungen zu managen sind.
+ Hierzu werden Vorschriften (Policies) und Strategieen (Schnittstellen-Verabredu
+ngen z.
+ B.) entwickelt, um eine Zusammenarbeit von Prozessen zu ermöglichen.
+\end_layout
+
+\begin_layout Standard
+Beispiel: die Studenten arbeiten zwar als normale unprivilegierte User auf
+ ihren Systemen, aber für spezielle Aufgaben sind Applikationen so eingestellt,
+ dass Super-User Rechte gewährt werden.
+ Beispielsweise Wireshark im Rechnernetze Praktikum.
+ Der Prozess der Durchführung dieses Praktikums benötigt diese Ausnahme,
+ die im Rahmen der Policy, die Useraktivitäten auf den Systemen restriktiviert,
+ festgehalten ist.
+\end_layout
+
+\begin_layout Subsection
+DS 10: Problem Management
+\end_layout
+
+\begin_layout Standard
+Ziel ist es aus immanent auftretenden Problemen und Störungen zu lernen.
+ Incidents werden als Ereignisse definiert, die einen Service stören, und
+ zu Problemen führen können.
+ Probleme in diesem Zusammenhang sind solche Störungen mit erheblichen Auswirkun
+gen auf den Service, oder solche Fehler, deren Ursache nicht bekannt ist.
+ Die Probleme und Incidents müssen gelöst werden.
+ Daher ist ein Problem Management zu entwickeln, dass den Geschäftsprozess
+ nicht stört.
+ Beispielsweise können Probleme mit Checklisten vermieden werden, oder für
+ Incidents müssen entsprechende Maßnahmen autorisierbar sein.
+\end_layout
+
+\begin_layout Standard
+A16, DS 9.
+ DS 10, DS 13 - > Problem Management Änderungsverfolgung -> A 16 Aufgezeichnete
+ Probleme Bekannte Probleme, Workarounds -> DS 8 Prozess, Performance Berichte
+ -> ME 1
+\end_layout
+
+\begin_layout Standard
+Beispiel: Studenten möchten einen Leistungsnachweis haben über die erbrachten
+ Prüfungsleistungen.
+ Dieser Nachweis ist zu jedem Zeitpunkt des Studiums auszustellen, und die
+ Fachhochschule hat die Pflicht die Korrektheit zu gewährleisten.
+ Störungen oder Umstellungen bei den dazu bereit gestellten Terminals dürfen
+ den Service für die Studierenden nicht betreffen, und müssen bekannt sein.
+ Änderungen an den Leistungen sind zu betrachten.
+ *** 
+\end_layout
+
+\begin_layout Subsection
+DS 11: Data Management
+\end_layout
+
+\begin_layout Standard
+In Unternehmen sind heutzutage Daten wertvoll.
+ - Sie müssen sorgfältig behandelt werden, da der Verlust von Daten erhebliche
+ Auswirkungen auf alle Services haben kann.
+ Speichersysteme müssen gemanaget werden, Kapazitäten geschaffen, Backups
+ geplant, und Integrität muss überprüft werden.
+\end_layout
+
+\begin_layout Standard
+Beispiel: Ein Verlust sämtlicher Prüfungsleistungen aus der Datenbank der
+ Fachhochschule würde den Fortbestand der Studiengänge gefährden.
+ Entsprechend ist der Stand regelmäßig zu backuppen, und die Integrität
+ der Backups und die Fähigkeit der Wiederherstellung zu überprüfen.
+\end_layout
+
+\begin_layout Subsection
+DS 12: Facility Management
+\end_layout
+
+\begin_layout Standard
+Die Gebäudestruktur und Einrichtung muss betrachtet werden, da sie essentielle
+ Auswirkungen auf den Betriebsalltag hat.
+ Geeignete physikalische Umgebung ist zu schaffen und zu warten.
+\end_layout
+
+\begin_layout Standard
+Beispiel: Die Ausbreitung von WLAN über den Universitätscampus benötigt
+ spezielle Räume für die Access Points, Strom, Uplink, Kühlung, und spezielle
+ Masten und Antennen.
+ Diese müssen so geschaffen werden, dass sie eine 100%ige Signalabdeckung
+ in allen Räumen erreichen.
+ DS 13: Operationsmanagement Ziel ist es zu planen, welche Aktivitäten zu
+ welchem Zeitpunkt ausgeführt werden.
+ Bereiche müssen zwar prioretisiert werden, aber kein Bereich darf übermäßig
+ vernachlässigt werden.
+\end_layout
+
+\begin_layout Standard
+Beispiel: Die Baustellen vor dem Gebäude sollten nicht zur Zeit der Durchführung
+ von Klausuren oder mündlichen Prüfung fortgeführt werden.
+ Entsprechend ist eine Erweiterung des Parkplatzes beispielsweise in den
+ Semesterferien vorzunehmen.
+\end_layout
+
+\begin_layout Subsection
+Beispiel
+\end_layout
+
+\begin_layout Standard
+TODO
+\end_layout
+
+\begin_layout Section
+ME
+\end_layout
+
+\begin_layout Subsection
+ME 1: Überwachen und Evaluieren der IT Performance
+\end_layout
+
+\begin_layout Standard
+Die Service Ziele der IT müssen über Prozesse an der richtigen Stelle überwacht
+ werden.
+ Diese Prozesse müssen sich stetig verbessern, indem sie die wesentlichen
+ Testpunkte betrachten, angemessen in Bezug auf Aufwand: die primär nötigen
+ Daten müssen geliefert werden.
+ Durch die notwendigen Daten können die IT Prozesse an die Anforderungen
+ des Kunden angepasst werden, unter Einhaltung der Richtlinien (Policies)
+ und Standards.
+ Ziel ist es Einblick in IT Kosten, Nutzen und Strategie in Übereinstimmung
+ mit den Goverance Anforderungen zu gewährleisten.
+ -> Berichterstattung: Reporting Strukturen Beispiel: Frequentierung der
+ Seite: von Wo, Wann? Zufriedenheit über die Performance bei den Studenten
+ im Moofle abfragen (Umfrage)
+\end_layout
+
+\begin_layout Standard
+TODO: Balanced Sourcecard 
+\end_layout
+
+\begin_layout Subsection
+ME 2: Überwachung und Begutachtung der internen Kontrollen
+\end_layout
+
+\begin_layout Standard
+Die nötigen Daten für ME 1 müssen auf Korrektheit überprüft werden.
+ Dabei muss sichergestellt werden, dass die Kontrollpunkte der Prozesse
+ so gewählt sind, dass fundierte Aussagen möglich sind.
+ Zudem stellt ME 2 die Einhaltung gesetzlicher Regelungen hierbei sicher,
+ hinsichtlich der Angemessenheit der Kontrollmechanismen und Kontrollziele.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+ME 3: Sicherstellung der Einhaltung gesetzlicher Vorschriften 
+\end_layout
+
+\begin_layout Subsubsection
+ME 4: Sorgen für IT Governance TODO
+\end_layout
+
+\begin_layout Subsection
+Beispiel
+\end_layout
+
+\begin_layout Chapter
+Zusammenfassung
+\end_layout
+
+\begin_layout Standard
+Detailliertere Zusammenfassung der dargestellten Sachverhalte als das Executive
+ Summary in Abschnitt 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Executive-Summary"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Kernaussagen mit Verweisen auf Ihre Abschnitte zusammenführend und den Gesamtkon
+text berücksichtigend auf den Punkt bringen.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "./mypubs-utf8"
+options "plainnat"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
