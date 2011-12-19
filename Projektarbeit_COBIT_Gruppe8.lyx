@@ -92,6 +92,10 @@ Projektbericht
 Thema: COBIT
 \end_layout
 
+\begin_layout Standard
+Status: Entwurf
+\end_layout
+
 \begin_layout Author
 Alexander Wegner, Marius Ciepluch
 \end_layout
@@ -159,7 +163,7 @@ es ist ein Mittel zum Aufbau von Kontrollstrukturen in Unternehmen, das
 \end_layout
 
 \begin_layout Itemize
-COBIT kann in Unternehmen in Phasen etabliert werden - in verschiedenen
+COBIT kann in Unternehmen in Phasen etabliert werdeen - in verschiedenen
  Maturity Levels.
 \end_layout
 
@@ -267,7 +271,7 @@ Alexander Wegner
 \begin_inset Text
 
 \begin_layout Plain Layout
-PO1 - PO10, A11-A17,
+PO1 - PO10, A11 - A17,
 \end_layout
 
 \end_inset
@@ -307,7 +311,7 @@ DS1 - DS13, ME1 - ME4
 \begin_inset Text
 
 \begin_layout Plain Layout
-beide
+Marius Ciepluch
 \end_layout
 
 \end_inset
@@ -371,23 +375,23 @@ Im Folgenden allgemeinen Abschnitt werden diese Fragen beantwortet:
 
 \begin_layout Enumerate
 Wann sollte man COBIT einsetzen: welche Unternehmen sind Zielgruppe, und
- welche Personengruppen in Unternehmen
+ welche Personengruppen in Unternehmen hat das Framework?
 \end_layout
 
 \begin_layout Enumerate
-Wie ist der Aufbau von COBIT zu verstehen: die Verteilung von IT Prozessen
- über Domänen
+Wie ist der Aufbau von COBIT zu verstehen: wie ist die Verteilung von IT
+ Prozessen über Domänen aufgebaut?
 \end_layout
 
 \begin_layout Enumerate
 Was sind die Maturity Levels: entscheidet man sich COBIT in einem Unternehmen
  einzusetzen, muss man sich über eine Strategie entscheiden.
- Woran kann man diese Strategie orientieren
+ Woran kann man diese Strategie orientieren?
 \end_layout
 
 \begin_layout Enumerate
-Welche Kontrollzyklen und Normen sind zusammen mit COBIT zu betrachten,
- und die Geschäftsanforderungen umzusetzen?
+Welche Kontrollzyklen und Normen (hinsichtlich Qualität) sind zusammen mit
+ COBIT zu betrachten, um die Geschäftsanforderungen umzusetzen?
 \end_layout
 
 \begin_layout Section
@@ -522,13 +526,7 @@ Es gibt keine Aufführung von Management-Instrumenten, keine Verteilung von
 \end_layout
 
 \begin_layout Standard
-\begin_inset Graphics
-	filename /home/wishi/Screen shot 2011-12-17 at 15.56.51.png
-	rotateOrigin center
-
-\end_inset
-
-
+*** (Governance Würfel mit COBIT Hierarchie folgt)
 \end_layout
 
 \begin_layout Subsection
@@ -536,11 +534,7 @@ Maturity Levels
 \end_layout
 
 \begin_layout Standard
-Zur Etablierung von COBIT
-\end_layout
-
-\begin_layout Standard
-
+*** Zur Etablierung von COBIT - eine kurze Beschreibung folgt hier.
 \end_layout
 
 \begin_layout Subsection
@@ -548,7 +542,9 @@ Kontrollzyklen und Normen
 \end_layout
 
 \begin_layout Standard
-EFQM, CMM/Spice, BSC, Deming Kontrollzyklus, RACI Charts (wichtig!)
+*** EFQM, CMM/Spice, BSC, Deming Kontrollzyklus (Abbildung folgt), RACI
+ Charts (wichtig, weil die in den Beispielen vorkommen) - kurz.
+ Wichtig: Balanced Sourcecard kommt auch im Beispiel.
 \end_layout
 
 \begin_layout Subsection
@@ -556,7 +552,8 @@ Zusammenfassung in Stichpunkten
 \end_layout
 
 \begin_layout Standard
-Die 5 wichtigsten Punkte.
+*** Die 5 wichtigsten Punkte.
+ Kommen hier.
 \end_layout
 
 \begin_layout Chapter
@@ -817,7 +814,11 @@ In einer FH ist das „Kerngeschäft“ unter anderem Ausbildung von Nachwuchskr
 n bereitgestellt“? Die Antwort auf diese Frage werden also bei der Erstellung
  der Informationsarchitektur berücksichtigt und z.B.
  die nötigen Sicherheitsstufen festgelegt.
- Festlegen der technischen Ausrichtung an einer FH könnte man sich an dem
+ 
+\end_layout
+
+\begin_layout Standard
+Festlegen der technischen Ausrichtung an einer FH könnte man sich an dem
  folgenden Beispiel veranschaulichen: Als sich z.B.
  in der Mitte der 1990 der Trend für Internetgestütztes lernen auszeichnete,
  bewertet viele Hochschulen diese Entwicklung mit dem Ziel diese neue Möglichkei
@@ -834,10 +835,14 @@ t zu etablieren um qualitativ höhere Gestaltung der Lehre zu ermöglichen.
  und auf Nutzenseite: Aktualität, besserer Lernerfolg wenn Nutzenseite überwiegt
  wird Investiert sonst nicht.
  Kommunizieren der Management-Ziele und Strategien an einer FH könnte z.B.
- so aussehen: In dem Studiengang Informatik/Softwaretechnik soll die Fähigkeit
- im Team zu arbeiten gefördert werden, dieses Ziel sollte an die Lehrenden
- in dieser FH in anwendbaren und praktikablen Anweisungen Kommuniziert werden
- damit diese Ziele umgesetzt werden können.
+ so aussehen: 
+\end_layout
+
+\begin_layout Standard
+In dem Studiengang Informatik/Softwaretechnik soll die Fähigkeit im Team
+ zu arbeiten gefördert werden, dieses Ziel sollte an die Lehrenden in dieser
+ FH in anwendbaren und praktikablen Anweisungen Kommuniziert werden damit
+ diese Ziele umgesetzt werden können.
  Um einen Qualifizierenden Lehrenden jedoch langfristig an der FH behalten
  zu können kommt Personalführungsmanagement ins Spiel.
  Es sind unter anderem folgende Faktoren die in dem Zusammenhang eine Rolle
@@ -856,12 +861,24 @@ t zu etablieren um qualitativ höhere Gestaltung der Lehre zu ermöglichen.
 AI
 \end_layout
 
+\begin_layout Standard
+*** Folgt
+\end_layout
+
 \begin_layout Subsection
 Beispiel
 \end_layout
 
+\begin_layout Standard
+*** Folgt
+\end_layout
+
 \begin_layout Section
 Delivery und Support
+\end_layout
+
+\begin_layout Standard
+*** Allgemeine Beschreibung folgt
 \end_layout
 
 \begin_layout Subsection
@@ -877,6 +894,10 @@ riterium für Qualität und Quantität formalisiert dargestellt wird.
  Dazu trifft man Vereinbarungen, die vertraglich festgehalten werden.
  Die festgehaltenen Service Level werden regelmäßig mit der Realität verglichen,
  um Maßnahmen zur Verbesserung festzulegen
+\end_layout
+
+\begin_layout Standard
+*** Umordnung folgt
 \end_layout
 
 \begin_layout Standard
@@ -902,6 +923,10 @@ Hier wird die Zulieferung bezüglich der in DS 1 getroffenen Service Level
 \end_layout
 
 \begin_layout Standard
+*** Umordnung folgt, Getränkebeispiel wird verschwinden
+\end_layout
+
+\begin_layout Standard
 Beispiel: Die Abhängigkeit des Getränkeverkaufes (interne Anforderung) von
  der Lieferung (externe Anforderung) macht es nötig Kontrolle auf den Prozess
  auszuüben.
@@ -922,16 +947,16 @@ Die Anforderungen an die Systeme werden überwacht.
 \end_layout
 
 \begin_layout Standard
+***
+\end_layout
+
+\begin_layout Standard
 Beispiel: wie oft wird ein Getränkeautomat frequentiert (benutzt).
  Werden alle Getränkeautomaten im Flur genutzt oder nur die neben dem warmen
  Rechenzentrum.
  - Müssen daher alle gleichermaßen bestückt und betrieben werden.
  Muss der Getränkeautomat im obersten Flur (der nachts abgeschlossen ist)
  auch nachts kühlen?
-\end_layout
-
-\begin_layout Standard
-*** 
 \end_layout
 
 \begin_layout Subsection
@@ -944,6 +969,10 @@ Im Falle einer Störung muss der Weiterbetrieb gewährleistet werden.
  auch kleinere Alltagsstörungen, die den Betrieb trotzdem empfindlich gefährden
  können.
  Die Auswirkungen auf das Geschäft sollen minimiert werden.
+\end_layout
+
+\begin_layout Standard
+***
 \end_layout
 
 \begin_layout Standard
@@ -964,6 +993,10 @@ DS 5: Security Management
 Sicherheit in Unternehmen muss effizient sein, sollte jedoch idealerweise
  die Arbeitsprozesse nicht zu behindern.
  Dennoch haben die Anforderungen an Sicherheit heutzutage eine hohe Dynamik.
+\end_layout
+
+\begin_layout Standard
+***
 \end_layout
 
 \begin_layout Standard
@@ -1205,7 +1238,7 @@ Beispiel
 \end_layout
 
 \begin_layout Standard
-TODO
+*** Folgt
 \end_layout
 
 \begin_layout Section
@@ -1233,7 +1266,7 @@ Die Service Ziele der IT müssen über Prozesse an der richtigen Stelle überwac
 \end_layout
 
 \begin_layout Standard
-TODO: Balanced Sourcecard 
+TODO: Balanced Sourcecard hier
 \end_layout
 
 \begin_layout Subsection
@@ -1253,8 +1286,16 @@ Die nötigen Daten für ME 1 müssen auf Korrektheit überprüft werden.
 ME 3: Sicherstellung der Einhaltung gesetzlicher Vorschriften 
 \end_layout
 
+\begin_layout Standard
+*** 
+\end_layout
+
 \begin_layout Subsubsection
-ME 4: Sorgen für IT Governance TODO
+ME 4: Sorgen für IT Governance
+\end_layout
+
+\begin_layout Standard
+***
 \end_layout
 
 \begin_layout Subsection
