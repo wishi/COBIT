@@ -1,0 +1,311 @@
+%% LyX 2.0.1 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[11pt,oneside,ngerman]{book}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{geometry}
+\geometry{verbose,tmargin=3cm,bmargin=3cm,lmargin=2.5cm,rmargin=2.5cm,headheight=1cm,headsep=1.5cm,footskip=1.5cm}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\setcounter{secnumdepth}{3}
+\setlength{\parskip}{\medskipamount}
+\setlength{\parindent}{0pt}
+\usepackage{array}
+\usepackage{amsmath}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+
+\AtBeginDocument{
+  \def\labelitemii{\(\circ\)}
+  \def\labelitemiii{\(\cdot\)}
+}
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+
+\title{Projektbericht\\
+Thema: COBIT}
+
+
+\author{Alexander Wegner, Marius Ciepluch}
+
+\maketitle
+\tableofcontents{}
+
+\listoffigures
+
+
+\listoftables
+
+
+
+\chapter{Einleitung}
+
+
+\section{Executive Summary\label{sec:Executive-Summary}}
+\begin{itemize}
+\item COBIT steht für ,,Control Objectives for Information and Related
+Technology``. Es handelt sich um ein IT Governance Framework, das
+sich nicht der Art der Umsetzung widmet, sondern definiert welche
+Objekte umgesetzt werden müssen.
+\item es ist ein Mittel zum Aufbau von Kontrollstrukturen in Unternehmen,
+das einen Top Down Steuerungsansatz benutzt. Die Control Objectives
+sind dazu über 4 Domänen (insgesamt 34 IT Prozesse) verteilt.
+\item COBIT kann in Unternehmen in Phasen etabliert werden - in verschiedenen
+Maturity Levels.
+\item Innerhalb des Einsatzes können die Kontrollstrukturen verbessert werden
+um die Effizienz von Unternehmensprozessen durch die gewonnen Erkenntnisse
+zu steigern. Dies geschieht über die Rückkopplung von Erkenntnissen
+über die verschiedenen Domänen. Um dies zu verdeutlichen wurden im
+folgenden Bericht die Domänen-Schnittstellen visualisiert.
+\item COBIT wird benutzt um auf strukturierte Weise Governance in Unternehmen
+aufzubauen
+\item es wird COBIT in der aktuellen Version 4.1 (Ende 2011) betrachtet.
+Version 5 des Frameworks befindet sich noch in aktiver Entwicklung.
+\end{itemize}
+
+\section{Ersteller des Berichts}
+
+Der Bericht wurde durch die in Tabelle \ref{tab:Ersteller-des-Berichts}
+aufgeführten Studentinnen und Studenten erstellt. Jeder bearbeitete
+hauptverantwortlich zwei Domänen.
+
+\begin{table}[tbh]
+\begin{tabular}{|c|c|>{\centering}p{0.6\textwidth}|}
+\hline 
+\textbf{Autor} & \textbf{MatrNr} & \textbf{Inhaltliche Verantwortung}\tabularnewline
+\hline 
+\hline 
+Alexander Wegner & 123456 & PO1 - PO10, A11-A17,\tabularnewline
+\hline 
+Marius Ciepluch & 654321 & DS1 - DS13, ME1 - ME4 \tabularnewline
+\hline 
+beide & Gruppe 8 & Einleitung, Korrektur, Zusammenfassungen, Koordination\tabularnewline
+\hline 
+\end{tabular}
+
+\caption{\label{tab:Ersteller-des-Berichts}Ersteller des Berichts}
+\end{table}
+
+
+
+\chapter{Allgemeines zu COBIT}
+
+Im Folgenden allgemeinen Abschnitt werden diese Fragen beantwortet:
+\begin{enumerate}
+\item Wann sollte man COBIT einsetzen: welche Unternehmen sind Zielgruppe,
+und welche Personengruppen in Unternehmen
+\item Wie ist der Aufbau von COBIT zu verstehen: die Verteilung von IT Prozessen
+über Domänen
+\item Was sind die Maturity Levels: entscheidet man sich COBIT in einem
+Unternehmen einzusetzen, muss man sich über eine Strategie entscheiden.
+Woran kann man diese Strategie orientieren
+\end{enumerate}
+
+\section{Unternehmens- und Personen-Zielgruppen von COBIT}
+
+COBIT unterstützt das IT-Management um Risiken abzuwägen und Kontrolle
+über Investitionen zu behalten (Betriebswirtschaftliche IT). Anwender
+von IT Diensten sollen beim fachgerechten und gewissenhaften Einsatz
+der IT unterstützt werden (Produkt IT). Revisoren, Wirtschaftsprüfer
+oder IT Spezialisten sollen ihre Analysen mit Daten (aus zielgerichtet
+aufgebauten Informationsquellen und daraus entstandenen Statistiken)
+belegen (Technische IT). Die Governance, die durch COBIT aufgebaut
+wird, durchdringt also betriebswirtschaftliche, produkt-technische
+und rein technische Bereiche der IT.
+
+Das COBIT Framework richtet sich vor allem an Unternehmen, in denen
+IT durch den Geschäftszweck eine zentrale Bedeutung erlangt hat, und
+die eine komplexe Unternehmensstruktur aufweisen. Ferner natürlich
+sind Unternehmen Zielgruppe, die sich von der Rechtsform her zum Aufbau
+von weitreichenden IT Kontrollstrukturen eignen. Dies wird jedoch
+im nachfolgenden Bericht nicht vertieft. 
+
+
+\section{Aufbau von COBIT in Domänen}
+
+COBIT hat vier Hauptdomänen, in denen sich die Prozesse mit ihren
+Kontroll-Zielen befinden:
+\begin{itemize}
+\item PO steht für Planung und Organisation. Diese Domäne fasst Prozesse
+zum Managen von Risiken und strategischer Ausrichtung der IT.
+\item AI steht für Akquisition und Implementierung. Hier geht um die Etablierung
+neuer Prozesse und Applikationen innerhalb bestehender Infrastruktur.
+\item DS steht für Delivery und Support. Innerhalb von IT Governance wird
+hier Service-Level Management, Konfigurations-Management, Kostenmanagement,
+IT Sicherheit und IT Performance abgedeckt
+\item ME steht für Monitoring und Überwachung. Dieser Bereich dient der
+Gewährleistung unabhängiger Revision und der Erhöhung des Vertrauensgrades. 
+\end{itemize}
+Dabei werden die sieben Informationskriterien berücksichtigt:
+\begin{itemize}
+\item Konformität
+\item Vertraulichkeit
+\item Integrität
+\item Verfügbarkeit 
+\item Zuverlässigkeit 
+\item Effektivität
+\item Einhaltung rechtlicher Erfordernisse (Compliance)
+\end{itemize}
+Außerdem werden die fünf Ressourcen berücksichtigt, auf denen Geschäftsprozesse
+basieren
+\begin{itemize}
+\item Menschen (Human Ressources)
+\item Gebäude (Facilities)
+\item Technologieen 
+\item Anwendungssysteme 
+\item Daten
+\end{itemize}
+Es gibt keine Aufführung von Management-Instrumenten, keine Verteilung
+von Verantwortlichkeiten und wenige Rollen- und Berechtigungskonzepte.
+Funktionstrennung und Schnittstellenüberwachung sind nicht im Framework
+konkretisiert.
+
+
+\subsection{Nummerierte Unterabschnitte}
+
+Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod
+tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim
+veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid
+ex ea commodi consequat. Quis aute iure reprehenderit in voluptate
+velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+obcaecat cupiditat non proident, sunt in culpa qui officia deserunt
+mollit anim id est laborum. 
+
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+vero eros et accumsan et iusto odio dignissim qui blandit praesent
+luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+vero eros et accumsan et iusto odio dignissim qui blandit praesent
+luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+doming id quod mazim placerat facer possim assum. 
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+molestie consequat, vel illum dolore eu feugiat nulla facilisis. At
+vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+sed diam voluptua. At vero eos et accusam et justo duo dolores et
+ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos
+erat, et nonumy sed tempor et et invidunt justo labore Stet clita
+ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut
+vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+ut labore et dolore magna aliquyam erat. Consetetur sadipscing elitr,
+sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+Lorem ipsum dolor sit amet. 
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+sed diam voluptua. At vero eos et accusam et justo duo dolores et
+ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+sanctus est Lorem ipsum dolor sit amet.
+
+
+\subsection{Nummerierter Unterabschnitt}
+
+Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod
+tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim
+veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid
+ex ea commodi consequat. Quis aute iure reprehenderit in voluptate
+velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+obcaecat cupiditat non proident, sunt in culpa qui officia deserunt
+mollit anim id est laborum. 
+
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+vero eros et accumsan et iusto odio dignissim qui blandit praesent
+luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+vero eros et accumsan et iusto odio dignissim qui blandit praesent
+luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+doming id quod mazim placerat facer possim assum. 
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+molestie consequat, vel illum dolore eu feugiat nulla facilisis. At
+vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+sed diam voluptua. At vero eos et accusam et justo duo dolores et
+ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos
+erat, et nonumy sed tempor et et invidunt justo labore Stet clita
+ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut
+vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+ut labore et dolore magna aliquyam erat. Consetetur sadipscing elitr,
+sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+Lorem ipsum dolor sit amet. 
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+sed diam voluptua. At vero eos et accusam et justo duo dolores et
+ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+sanctus est Lorem ipsum dolor sit amet.
+
+
+\chapter{Zusammenfassung}
+
+Detailliertere Zusammenfassung der dargestellten Sachverhalte als
+das Executive Summary in Abschnitt \ref{sec:Executive-Summary}.
+
+Kernaussagen mit Verweisen auf Ihre Abschnitte zusammenführend und
+den Gesamtkontext berücksichtigend auf den Punkt bringen.
+
+\bibliographystyle{plainnat}
+\bibliography{mypubs-utf8}
+
+\end{document}

@@ -228,7 +228,9 @@ Autor
 \begin_inset Text
 
 \begin_layout Plain Layout
-Gruppe
+
+\series bold
+MatrNr
 \end_layout
 
 \end_inset
@@ -259,7 +261,7 @@ Alexander Wegner
 \begin_inset Text
 
 \begin_layout Plain Layout
-Gruppe 8
+123456
 \end_layout
 
 \end_inset
@@ -288,7 +290,7 @@ Marius Ciepluch
 \begin_inset Text
 
 \begin_layout Plain Layout
-Gruppe 8
+654321
 \end_layout
 
 \end_inset
@@ -4678,8 +4680,7 @@ Der eMail Verkehr der FHL soll ausgewertet werden.
  die Idee an konkrete rechtliche Grenzen (ME 3).
  Daher werden unternehmensweite Informationsmails vom Präsidium (Executive
  Buy-In nach ME 4) der FHL versandt, in dem die Maßnahmen umfassend begründet
- werden, da es für das interne Netz der Institution eine gesetzliche Sicherheits
-verantwortung gibt.
+ werden, da es für das interne Netz eine Sicherheitsverantwortung gibt.
 \end_layout
 
 \begin_layout Standard
