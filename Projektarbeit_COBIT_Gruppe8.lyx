@@ -24,22 +24,25 @@ logicalmkup
 \font_sf_scale 100
 \font_tt_scale 100
 
-\graphics dvipdf
-\default_output_format default
+\graphics default
+\default_output_format pdf2
 \output_sync 0
 \bibtex_command default
 \index_command default
 \float_placement tbh
 \paperfontsize 11
 \spacing single
-\use_hyperref false
-\pdf_bookmarks false
+\use_hyperref true
+\pdf_title "COBIT"
+\pdf_author "Gruppe 8"
+\pdf_subject "Projekt-Bericht"
+\pdf_bookmarks true
 \pdf_bookmarksnumbered false
 \pdf_bookmarksopen false
 \pdf_bookmarksopenlevel 1
 \pdf_breaklinks false
-\pdf_pdfborder false
-\pdf_colorlinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
 \pdf_backref false
 \pdf_pdfusetitle true
 \papersize default
@@ -90,10 +93,6 @@ Projektbericht
 \end_inset
 
 Thema: COBIT
-\end_layout
-
-\begin_layout Standard
-Status: Entwurf
 \end_layout
 
 \begin_layout Author
@@ -151,8 +150,8 @@ Control Objectives for Information and Related Technology
 
 .
  Es handelt sich um ein IT Governance Framework, das sich nicht der Art
- der Umsetzung widmet, sondern definiert welche Objekte umgesetzt werden
- müssen.
+ der Umsetzung widmet, sondern es wird eine Struktur definiert welche Objekte
+ umgesetzt werden müssen.
 \end_layout
 
 \begin_layout Itemize
@@ -163,7 +162,7 @@ es ist ein Mittel zum Aufbau von Kontrollstrukturen in Unternehmen, das
 \end_layout
 
 \begin_layout Itemize
-COBIT kann in Unternehmen in Phasen etabliert werdeen - in verschiedenen
+COBIT kann in Unternehmen in Phasen etabliert werden - in verschiedenen
  Maturity Levels.
 \end_layout
 
@@ -271,7 +270,7 @@ Alexander Wegner
 \begin_inset Text
 
 \begin_layout Plain Layout
-PO1 - PO10, A11 - A17,
+PO1 - PO10, A11-A17,
 \end_layout
 
 \end_inset
@@ -374,28 +373,47 @@ Im Folgenden allgemeinen Abschnitt werden diese Fragen beantwortet:
 \end_layout
 
 \begin_layout Enumerate
-Wann sollte man COBIT einsetzen: welche Unternehmen sind Zielgruppe, und
- welche Personengruppen in Unternehmen hat das Framework?
+Wann man COBIT einsetzen sollte: welche Unternehmen sind Zielgruppe, und
+ welche Personengruppen in Unternehmen? Welche Unternehmen setzen COBIT
+ ein?
 \end_layout
 
 \begin_layout Enumerate
-Wie ist der Aufbau von COBIT zu verstehen: wie ist die Verteilung von IT
- Prozessen über Domänen aufgebaut?
+Wie der Aufbau von COBIT zu verstehen ist: warum die Verteilung von IT Prozessen
+ über Domänen?
 \end_layout
 
 \begin_layout Enumerate
-Was sind die Maturity Levels: entscheidet man sich COBIT in einem Unternehmen
+Was Maturity Levels sind: entscheidet man sich COBIT in einem Unternehmen
  einzusetzen, muss man sich über eine Strategie entscheiden.
  Woran kann man diese Strategie orientieren?
 \end_layout
 
 \begin_layout Enumerate
-Welche Kontrollzyklen und Normen (hinsichtlich Qualität) sind zusammen mit
- COBIT zu betrachten, um die Geschäftsanforderungen umzusetzen?
+Welche Kontrollzyklen und Normen sind zusammen mit COBIT zu betrachten,
+ und die Geschäftsanforderungen umzusetzen?
 \end_layout
 
 \begin_layout Section
 Unternehmens- und Personen-Zielgruppen von COBIT
+\end_layout
+
+\begin_layout Standard
+Nach Krcmar beinhaltet Informationsmanagement alle 
+\begin_inset Quotes gld
+\end_inset
+
+Managementaufgaben, die einerseits auf drei Ebenen (entsprechend den behandelten
+ Objekten) Informationswirtschaft (Gegenstand: Angebot, Nachfrage und Verwendung
+ von Information), Informationssysteme (Gegenstand: Daten, Prozesse, Anwendungsl
+ebenszyklus), IuK-Technologie (Gegenstand: Speicherung, Verarbeitung, Kommunikat
+ion, Technikbündel), andererseits über die Ebenen hinweg als Führungsaufgaben
+ des Informationsmanagements (Gegenstand: IT-Governance, Strategie, IT-Prozesse,
+ IT-Personal, IT-Controlling) realisiert werden müssen."
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -407,21 +425,19 @@ COBIT unterstützt das IT-Management um Risiken abzuwägen und Kontrolle über
  mit Daten (aus zielgerichtet aufgebauten Informationsquellen und daraus
  entstandenen Statistiken) belegen (Technische IT).
  Die Governance, die durch COBIT aufgebaut wird, durchdringt also betriebswirtsc
-haftliche, produkt-technische und rein technische Bereiche der IT.
+haftliche, produkt- technische und rein technische Bereiche der IT.
+ Damit entspricht es dem Rahmenmodell von Krcmar.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 Das COBIT Framework richtet sich vor allem an Unternehmen, in denen IT durch
  den Geschäftszweck eine zentrale Bedeutung erlangt hat, und die eine komplexe
  Unternehmensstruktur aufweisen.
- Unternehmen möchten durch IT Wettbewerbsfähigkeit und Wettbewerbsvorteile
- erlangen.
- Daher muss IT an den Zielen und Unternehmensstrategieen ausgerichtet werden,
- was eine wesentliche Aufgabe von IT Governance ist.
-\end_layout
-
-\begin_layout Standard
-Ferner natürlich sind Unternehmen Zielgruppe, die sich von der Rechtsform
+ Ferner natürlich sind Unternehmen Zielgruppe, die sich von der Rechtsform
  her zum Aufbau von weitreichenden IT Kontrollstrukturen eignen.
  Dies wird jedoch im nachfolgenden Bericht nicht vertieft.
  
@@ -499,23 +515,106 @@ Außerdem werden die fünf Ressourcen berücksichtigt, auf denen Geschäftsproze
 \end_layout
 
 \begin_layout Itemize
-Menschen (Human Ressources)
+Personen (Human Ressources)
 \end_layout
 
 \begin_layout Itemize
-Gebäude (Facilities)
+Infrastruktur (Facilities)
 \end_layout
 
 \begin_layout Itemize
-Technologieen 
+Anwendungen
 \end_layout
 
 \begin_layout Itemize
-Anwendungssysteme 
+Informationen
 \end_layout
 
-\begin_layout Itemize
-Daten
+\begin_layout Standard
+Hieraus ergibt sich der sogenannte Governance Würfel:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:GovernanceWuerfel"
+
+\end_inset
+
+COBIT Governance Würfel
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename GovernanceWuerfel.png
+	scale 70
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Die sieben Informationskriterien sind Unternehmensanforderungen (vertikal),
+ die mit IT Ressourcen erfüllt werden müssen (horizontal).
+ In den COBIT Domänen sind Prozesse modelliert, die sich in Aktivitäten
+ gliedern.
+ Die Realisierung der Aktivitäten ist methodisch offen, d.
+ h.
+ COBIT strukturiert zwar Prozesse thematisch in Domänen, gibt aber keine
+ fixierte Art der Realisierung, was zur Akzeptanzförderung beiträgt.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -525,16 +624,35 @@ Es gibt keine Aufführung von Management-Instrumenten, keine Verteilung von
  konkretisiert.
 \end_layout
 
-\begin_layout Standard
-*** (Governance Würfel mit COBIT Hierarchie folgt)
-\end_layout
-
 \begin_layout Subsection
 Maturity Levels
 \end_layout
 
 \begin_layout Standard
-*** Zur Etablierung von COBIT - eine kurze Beschreibung folgt hier.
+Zur Etablierung von COBIT existieren Reifegrade, die die Tiefe der Etablierung
+ des Frameworks in Unternehmen charakterisieren.
+ Mit diesen Leveln können auch bereits existente Prozesse bewertet werden.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes gld
+\end_inset
+
+As the first task and initial scoring, the bank measured the maturity level
+ of current processes.
+\begin_inset Quotes grd
+\end_inset
+
+ (
+\begin_inset CommandInset href
+LatexCommand href
+name "Fallstudie der ISACA, Banco Supervielle S.A."
+target "http://www.isaca.org/Knowledge-Center/cobit/Pages/COBIT-Case-Study-Banco-Supervielle-SA-Implements-COBIT-as-It-Pursues-Expansion.aspx"
+
+\end_inset
+
+).
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -542,9 +660,7 @@ Kontrollzyklen und Normen
 \end_layout
 
 \begin_layout Standard
-*** EFQM, CMM/Spice, BSC, Deming Kontrollzyklus (Abbildung folgt), RACI
- Charts (wichtig, weil die in den Beispielen vorkommen) - kurz.
- Wichtig: Balanced Sourcecard kommt auch im Beispiel.
+EFQM, CMM/Spice, BSC, Deming Kontrollzyklus, RACI Charts (wichtig!)
 \end_layout
 
 \begin_layout Subsection
@@ -552,69 +668,116 @@ Zusammenfassung in Stichpunkten
 \end_layout
 
 \begin_layout Standard
-*** Die 5 wichtigsten Punkte.
- Kommen hier.
+Die 5 wichtigsten Punkte.
 \end_layout
 
 \begin_layout Chapter
 Das COBIT Domänen-Modell
 \end_layout
 
+\begin_layout Standard
+Im Folgenden werden die einzelnen Domänen von COBIT exemplarisch beschreiben,
+ welche "Plan and Organise", "Acquire and Implement", "Deliver and Support"
+ sowie "Monitor and Evaluate".
+ Zur beispielhaften Verdeutlichung wurde die FH Lübeck und ihre Unternehmensstru
+ktur betrachtet.
+\end_layout
+
 \begin_layout Section
-PO - Planung und Organisation 
+PO Planung und Organisation
 \end_layout
 
 \begin_layout Standard
-Diese Domäne beschäftigt sich mit der Strategie und der Taktik der IT, um
- raus zufinden, wie man am besten die Erreichung der Geschäftsziele unterstützt.
- Die Umsetzung dieser Strategie muss geplant, kommuniziert und durchgeführt
- werden.
- 
+Was passiert hier alles, kurz***
 \end_layout
 
 \begin_layout Subsection
 PO1.
- Definieren eines strategischen Planes 
+ Definieren eines strategischen Planes
 \end_layout
 
 \begin_layout Standard
 Eine strategische Planung ist für jeden Unternehmensbereich wichtig, da
- diese den Künftigen Erfolg es Unternehmens sichert, das gilt auch für den
- IT Bereich.
+ diese den künftigen Erfolg es Unternehmens sichert.
+ Das gilt ebenso für den IT Bereich.
 \end_layout
 
 \begin_layout Standard
 Strategische Planung dient als Basis für die Lösung bei folgenden Aufgaben:
- - alle IT-Ressourcen in Übereinstimmung mit Unternehmensstrategie und Priorität
-en des Unternehmens zu verwalten und zu steuern.
- - Bewerten der gegenwärtigen Leistung des Unternehmens - Stütze um den
- Umfang von notwendigen und zukünftigen Investitionen zu ermitteln.
- - Aufweisen der Möglichkeiten und Grenzen von IT in einem Unternehmen -
- Sicherstellen der Zukunft des IT-Bereichs und somit des gesamten Unternehmens
 \end_layout
 
-\begin_layout Standard
-Eine langfristige IT-Strategie ist auf die Unterstützung der Geschäftsziele
- ausgerichtet und wird aus Geschäftsstrategie entwickelt.
- Aus Strategie werden Pläne und um diese umsetzbar zu gestallten sind zwei
- Aspekte zu beachten: Als erstes eine Betrachtung auf dem Markt vorhandenen
- Technischen Lösungen und zweitens in dem Unternehmen vorhandene Infrastruktur.
- Im Laufe des Prozesses wird Erfolg der Strategie bewertet und gegebenenfalls
- angepasst bzw.
- verändert.
+\begin_layout Enumerate
+Alle IT-Ressourcen in Übereinstimmung mit Unternehmensstrategie und Prioritäten
+ des Unternehmens zu verwalten und zu steuern.
+ 
 \end_layout
 
-\begin_layout Standard
-Kontrolle über den IT-Prozess wird erreicht durch: Geschäftsleitung sollte
- folgende Forraussetzungen erfüllen: Verstehen des derzeitigen IT-Potentials
- sowie Erstellung eines Schemas für die Priorisierung von Geschäftszielen,
- das die Geschäftsanforderungen misst.
- Und die Kontrolle über den IT-Prozess wird gemessen durch: - Prozent der
- IT-Ziele im strategischen IT-Plan, die den strategischen Unternehmensplan
- unterstützen - Prozent der IT-Projekte im IT-Projektportfolio, die direkt
- auf den taktischen IT-Plan zurückgeführt werden können 
+\begin_layout Enumerate
+Bewerten der gegenwärtigen Leistung des Unternehmens 
 \end_layout
 
+\begin_layout Enumerate
+Stütze um den Umfang von notwendigen und zukünftigen Investitionen zu ermitteln
+\end_layout
+
+\begin_layout Enumerate
+Aufweisen der Möglichkeiten und Grenzen von IT in einem Unternehmen 
+\end_layout
+
+\begin_layout Enumerate
+Sicherstellen der Zukunft des IT-Bereichs und somit des gesamten Unternehmens
+\end_layout
+
+\begin_layout Itemize
+Kontrolle über den IT-Prozess durch die Konzentration auf Überleitung von
+ Unternehmensanforderungen in IT-Serviceangebote und die Entwicklung von
+ Strategien für die Erbringung dieser Services in transparenter und wirksamer
+ Weise.
+ 
+\end_layout
+
+\begin_layout Itemize
+Kontrolle über den IT-Prozess wird erreicht durch: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Zusammenarbeit mit der Geschäftsleitung und dem oberen Management in der
+ Ausrichtung der strategischen IT-Planung auf derzeitige sowie künftige
+ Geschäftsanforderungen 
+\end_layout
+
+\begin_layout Enumerate
+Verstehen des derzeitigen IT-Potentials 
+\end_layout
+
+\begin_layout Enumerate
+Erstellung eines Schemas für die Priorisierung von Geschäftszielen, das
+ die Geschäftsanforderungen in Zahlen dargestellt.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Kontrolle über den IT-Prozess wird gemessen durch:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Prozent der IT-Ziele im strategischen IT-Plan, die den strategischen Unternehmen
+splan unterstützen 
+\end_layout
+
+\begin_layout Enumerate
+Prozent der IT-Projekte im IT-Projektportfolio, die direkt auf den taktischen
+ IT-Plan zurückgeführt werden können
+\end_layout
+
+\begin_layout Enumerate
+Verzögerung zwischen Aktualisierungen der strategischen und der taktischen
+ IT-Pläne 
+\end_layout
+
+\end_deeper
 \begin_layout Subsection
 PO2.
  Definieren der Informationsarchitektur 
@@ -622,20 +785,37 @@ PO2.
 
 \begin_layout Standard
 Der Prozess PO1 hat eine IT-Strategie und die taktischen Pläne geliefert,
- auf deren Grundlage wird dann ein Architekturmodell erstellt.
+ auf deren Grundlage ein Architekturmodell erstellt wird.
  In dem Prozess werden das Datenmodell und die zugehörigen Informationssysteme,
  die zur Abbildung des Geschäftes notwendig sind, entwickelt.
- Dies umfasst die Entwicklung eines unternehmensweiten Datenkatalogs, das
+ Dies umfasst die Entwicklung eines unternehmensweiten Datenkatalogs, welches
  die Syntaxregeln, ein Datenklassifikationsschema und Sicherheitsstufen
  festlegt.
+ 
 \end_layout
 
 \begin_layout Standard
-Ziel des Architekturmodels ist: - Optimiert des Zusammenspiels aller eingesetzte
-n Informationssysteme und Daten - Verbessert die Qualität der Entscheidungsfindu
-ng des Managements (Infos sind verlässlich und gesichert) - Verbessert Verantwor
-tung für die Integrität und Sicherheit der Daten - Verbessert Steuerungsmöglichk
-eit über die gemeinsame Verwendung von Informationen
+Ziel des Architekturmodels ist: 
+\end_layout
+
+\begin_layout Enumerate
+Optimierung des Zusammenspiels aller eingesetzten Informationssysteme und
+ Daten
+\end_layout
+
+\begin_layout Enumerate
+Verbesserung der Qualität der Entscheidungsfindung des Managements (Informatione
+n sind verlässlich und gesichert)
+\end_layout
+
+\begin_layout Enumerate
+Verbesserung der Verantwortungsstruktur für die Integrität und Sicherheit
+ der Daten
+\end_layout
+
+\begin_layout Enumerate
+Verbesserung der Steuerungsmöglichkeit über eine gemeinsame Verwendung von
+ Informationen
 \end_layout
 
 \begin_layout Standard
@@ -643,16 +823,53 @@ Die Erstellung eines solchen Modells muss in regelmäßigen Abständen wiederhol
  werden, weil sich Technologien ständig weiter entwickeln.
 \end_layout
 
-\begin_layout Standard
-Kontrolle über den IT-Prozess wird erreicht durch - die Sicherstellung der
- Genauigkeit der Informationsarchitektur sowie des Datenmodells - die Zuweisung
- von Datenverantwortlichkeiten - die Klassifikation der Informationen unter
- Anwendung eines vereinbarten Klassifikationsschemas Und Kontrolle über
- den IT-Prozess wird gemessen durch - den Prozentanteil der doppelten Dateneleme
-nte - den Prozentanteil der Applikationen, welche nicht den Anforderungen
- der Informationsarchitektur genügen 
+\begin_layout Itemize
+Kontrolle über den IT-Prozess, durch die Konzentration auf den Aufbau eines
+ unternehmensweiten Datenmodells, welches ein Datenklassifikationsschema
+ für die Gewährleistung der Integrität und Konsistenz aller Daten beinhaltet.
+ 
 \end_layout
 
+\begin_layout Itemize
+Kontrolle über den IT-Prozess, wird erreicht durch: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+die Sicherstellung der Genauigkeit der Informationsarchitektur sowie des
+ Datenmodells 
+\end_layout
+
+\begin_layout Enumerate
+die Zuweisung von Datenverantwortlichkeiten 
+\end_layout
+
+\begin_layout Enumerate
+die Klassifikation der Informationen unter Anwendung eines vereinbarten
+ Klassifikationsschemas 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Kontrolle über den IT-Prozess wird gemessen durch:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+den Prozentanteil der redundanten/doppelten Datenelemente
+\end_layout
+
+\begin_layout Enumerate
+den Prozentanteil der Applikationen, welche nicht den Anforderungen der
+ Informationsarchitektur genügen 
+\end_layout
+
+\begin_layout Enumerate
+die Häufigkeit der durchgeführten Aktivitäten zur Validierung von Daten
+ 
+\end_layout
+
+\end_deeper
 \begin_layout Subsection
 PO3.
  Festlegen der technischen Ausrichtung 
@@ -666,19 +883,64 @@ Da Die Technologien sich ständig weiter entwickeln bzw.
  Das wichtigste Kriterium dabei ist Unterstützung des Geschäftsprozesses.
  Ziel ist das ausnutzen des Vorteils von Verfügbarkeit neuer Technologien
  um die Unterstützung und Entwicklung der Geschäftsstrategie zu gewährleisten.
- Kontrolle über den IT-Prozess, wird erreicht durch - Aufstellung eines
- Gremiums, um die Architektur anzuleiten und auf Regeltreue zu überprüfen
- - Erstellung des technischen Infrastrukturplans, welcher Kosten, Risiken
- und Anforderungen im Gleichgewicht hält - Festlegung der technischen Infrastruk
-turstandards, basierend auf den Anforderungen der Informationsarchitektur
- Kontrolle über den IT-Prozess wird gemessen durch - Anzahl und Typ der
- Abweichungen vom technologischen Infrastrukturplan - Häufigkeit der Aktualisier
-ungen des technologischen Infrastrukturplans - Anzahl der technologischen
- Plattformen nach Funktion im gesamten Unternehmen 
 \end_layout
 
+\begin_layout Itemize
+Kontrolle über den IT-Prozess, durch die Konzentration auf die Festlegung
+ und Implementierung eines technologischen Infrastrukturplans, der Architektur
+ und den Standards, welche technologische Möglichkeiten erkennen und wirksam
+ einsetzen.
+\end_layout
+
+\begin_layout Itemize
+Kontrolle über den IT-Prozess, wird erreicht durch 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Aufstellung eines Gremiums, um die Architektur anzuleiten 
+\end_layout
+
+\begin_layout Enumerate
+Erstellung des technischen Infrastrukturplans, welcher Kosten, Risiken und
+ Anforderungen im Gleichgewicht hält.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Festlegung der technischen Infrastrukturstandards, basierend auf den Anforderung
+en der Informationsarchitektur 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Kontrolle über den IT-Prozess wird gemessen durch 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Anzahl und Typ der Abweichungen vom technologischen Infrastrukturplan 
+\end_layout
+
+\begin_layout Enumerate
+Häufigkeit der Aktualisierungen des technologischen Infrastrukturplans 
+\end_layout
+
+\begin_layout Enumerate
+Anzahl der technologischen Plattformen nach Funktion im gesamten Unternehmen
+ 
+\end_layout
+
+\end_deeper
 \begin_layout Subsection
-PO4 Definieren der IT-Organisation und ihrer Beziehungen: 
+PO4 Definieren der IT-Organisation und ihrer Beziehungen
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:PO4-Definieren-der"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -686,32 +948,92 @@ Eine IT-Organisation muss unter Berücksichtigung der Anforderungen in transpare
 te, flexiblen und reagierende IT-Organisationseinheiten aufgeteilt werden
  und es müssen Verantwortlichkeiten und Rollen festgelegt werden.
  Die Beschreibung einer IT-Organisation sollte die folgenden Elemente umfassen
- und berücksichtigen: Strukturierung der IT auf vier Ebenen: - IT-Funktionen,
- IT-Abteilungen, IT-Leitung, IT-Steuerungsgremien.
- - Beschreiben der Rollen, Aufgaben, Kompetenzen und Verantwortlichkeiten
- für alle vier Ebenen.
- - Beschreibung der Aufgabentrennungen und Überwachungen.
+ und berücksichtigen: 
 \end_layout
 
 \begin_layout Standard
-Beispiel für Rollenverteilung: IT-Systemadministrator/in, IT-Anwenderin/in,
- IT-Abteilungsleiter, IT-Systembetreuer.
+Strukturierung der IT auf vier Ebenen: 
+\end_layout
+
+\begin_layout Enumerate
+IT-Funktionen
+\end_layout
+
+\begin_layout Enumerate
+IT-Abteilungen
+\end_layout
+
+\begin_layout Enumerate
+IT-Leitung
+\end_layout
+
+\begin_layout Enumerate
+IT-Steuerungsgremien
 \end_layout
 
 \begin_layout Standard
-Kontrolle über den IT-Prozess, wird erreicht durch - Festlegung eines Frameworks
- der IT-Prozesse - Aufstellung von angemessenen Organisationseinheiten und
- -strukturen - Festlegung von Rollen und Verantwortlichkeiten und gemessen
- durch - Prozent der Rollen mit dokumentierten Stellenbeschreibungen und
- Befugnissen - Anzahl der Unternehmenseinheiten, die nicht durch die IT
- unterstützt werden, die aber gemäß der Strategie unterstützt werden sollten
- - Anzahl der wesentlichen IT-Aktivitäten außerhalb der IT-Organisation,
- die nicht genehmigt sind oder die nicht den IT-Organisationsstandards entsprech
-en 
+Eine Beschreiben der Rollen, Aufgaben, Kompetenzen und Verantwortlichkeiten
+ für alle vier Ebenen ist wichtig sowie Beschreibung der Aufgabentrennungen
+ und Überwachungen.
 \end_layout
 
+\begin_layout Itemize
+Kontrolle über den IT-Prozess, durch die Konzentration auf die Erstellung
+ von transparenten, flexiblen und reagierenden IT-Organisationsstrukturen
+ und die Definition sowie Umsetzung von IT-Prozessen mit Rollen und Verantwortli
+chkeiten, die in die Entscheidungsprozesse des Unternehmens eingebunden
+ sind.
+ 
+\end_layout
+
+\begin_layout Itemize
+Kontrolle über den IT-Prozess, wird erreicht durch:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Festlegung eines Frameworks der IT-Prozesse
+\end_layout
+
+\begin_layout Enumerate
+Aufstellung von angemessenen Organisationseinheiten und -strukturen
+\end_layout
+
+\begin_layout Enumerate
+Festlegung von Rollen und Verantwortlichkeiten 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Kontrolle über den IT-Prozess wird gemessen durch:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Prozent der Rollen mit dokumentierten Stellenbeschreibungen und Befugnissen
+\end_layout
+
+\begin_layout Enumerate
+Anzahl der Unternehmenseinheiten/-prozesse, die nicht durch die IT unterstützt
+ werden, die aber gemäß der Strategie unterstützt werden sollten 
+\end_layout
+
+\begin_layout Enumerate
+Anzahl der wesentlichen IT-Aktivitäten außerhalb der IT-Organisation, die
+ nicht genehmigt sind oder die nicht den IT-Organisationsstandards entsprechen
+ *** Abbildung
+\end_layout
+
+\end_deeper
 \begin_layout Subsection
-PO5 IT-Investitionsmanagement: 
+PO5 IT-Investitionsmanagement
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:PO5-IT-Investitionsmanagement"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -721,9 +1043,54 @@ Planung und Aufstellung eines Budgets ist für eine Unternehmenseinheit,
  sicher zu stellen.
  Das hilft dem Kerngeschäft die Kosten für Prozesse genauer zu berechnen,
  zu planen und damit Erfolg der Gesamtunternehmung zu gewährleisten.
+\end_layout
+
+\begin_layout Itemize
+Kontrolle über den IT-Prozess, durch die Konzentration auf wirksame und
+ wirtschaftliche Entscheidungen zu IT-Investitionen und Portfolios sowie
+ durch Festlegung und Verfolgung des IT-Budgets im Einklang mit der IT-Strategie
+ und den Investitionsentscheidungen.
  
 \end_layout
 
+\begin_layout Itemize
+Kontrolle über den IT-Prozess wird erreicht durch: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Planung und Freigabe eines Budgets 
+\end_layout
+
+\begin_layout Enumerate
+Festlegung formaler Investitionskriterien.
+\end_layout
+
+\begin_layout Enumerate
+Messung des Wertbeitrags und Bewertung gegen die Prognose 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Kontrolle über den IT-Prozess wird gemessen durch:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+prozentuelle Reduktion der Stückkosten der erbrachten IT-Services
+\end_layout
+
+\begin_layout Enumerate
+Prozentanteil der Budgetabweichung verglichen mit dem Gesamtbudget 
+\end_layout
+
+\begin_layout Enumerate
+prozentueller Anteil der IT-Ausgaben, ausgedrückt in Werttreibern des Unternehme
+ns.
+ 
+\end_layout
+
+\end_deeper
 \begin_layout Subsection
 PO6 Kommunizieren der Management-Ziele und Strategien 
 \end_layout
@@ -737,14 +1104,49 @@ s in diesem Fall des IT-Bereichs sollen den Mitarbeitern mitgeteilt werden.
  einstellen und somit qualitativ höhere Leistung erbringen.
 \end_layout
 
-\begin_layout Standard
-Beispiel: In dem Studiengang Informatik/Softwaretechnik soll die Fähigkeit
- im Team zu arbeiten gefördert werden, dieses Ziel sollte an die Lehrenden
- in dieser FH in anwendbaren und praktikablen Anweisungen Kommuniziert werden
- damit diese Ziele umgesetzt werden können.
- 
+\begin_layout Itemize
+Kontrolle über den IT-Prozess, durch die Konzentration auf die Bereitstellung
+ von richtigen, verständlichen und freigegebenen Richtlinien, Standards
+ und Anleitungen, in ein IT Control Framework eingebetteter Dokumentationen
+ für Stakeholder.
 \end_layout
 
+\begin_layout Itemize
+Kontrolle über den IT-Prozess, wird erreicht durch:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Festlegung eines IT Control Frameworks
+\end_layout
+
+\begin_layout Enumerate
+Erstellung und Einführung der IT-Richtlinien 
+\end_layout
+
+\begin_layout Enumerate
+Durchsetzung der IT-Richtlinien 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Kontrolle über den IT-Prozess wird gemessen durch:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Anzahl der Geschäftsunterbrechungen aufgrund von Ausfällen von IT-Services
+\end_layout
+
+\begin_layout Enumerate
+Prozentsatz der Stakeholder, die das IT Control Framework verstehen
+\end_layout
+
+\begin_layout Enumerate
+Prozentsatz der Stakeholder, welche die Richtlinien nicht einhalten 
+\end_layout
+
+\end_deeper
 \begin_layout Subsection
 PO7 Personalführungsmanagement 
 \end_layout
@@ -755,9 +1157,58 @@ Der Erfolg einer Organisation ist von der Einstellungen und Fähigkeiten
  Ziel des IT Bereichs ist fähige Mitarbeiter einzustellen und diese dann
  langfristig zu binden sowie auch die Motivation dieser Mitarbeiter aufrecht
  zu erhalten.
+\end_layout
+
+\begin_layout Itemize
+Kontrolle über den IT-Prozess, durch die Konzentration auf Anwerben und
+ Schulung von Personal, das durch klare Karrierewege motiviert werden kann,
+ der Zuweisung von Rollen, die mit den Fähigkeiten übereinstimmen, Einführen
+ eines definierten Bewertungsprozesses, das Erstellen von Stellenbeschreibungen,
+ und die Sicherstellung des Bewusstseins für die Abhängigkeit vom jeden
+ Einzelnen.
  
 \end_layout
 
+\begin_layout Itemize
+Kontrolle über den IT-Prozess, wird erreicht durch:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Bewertung der Mitarbeiter-Performance 
+\end_layout
+
+\begin_layout Enumerate
+Anwerben und Schulung von IT-Personal, um taktische IT-Pläne zu unterstützen
+ 
+\end_layout
+
+\begin_layout Enumerate
+Entschärfen des Risikos einer zu großen Abhängigkeit von Schlüsselressourcen
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Kontrolle über den IT-Prozess wird gemessen durch 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Zufriedenheitsgrad der Stakeholder mit den Fähigkeiten und Fachkenntnissen
+ des IT-Personals
+\end_layout
+
+\begin_layout Enumerate
+Schwankungsrate des IT-Personals
+\end_layout
+
+\begin_layout Enumerate
+Prozentanteil des IT-Personals, das entsprechend der Erfordernisse der Stelle
+ 
+\end_layout
+
+\end_deeper
 \begin_layout Subsection
 PO8 Qualitätsmanagement 
 \end_layout
@@ -768,9 +1219,53 @@ Kunden erwarten eine immer höhere Qualität bei gleichzeitiger Kostensenkung.
  Dieser muss eine Organisation an jeder Stelle durchdringen und von jedem
  Mitarbeiter in jedem System gespürt werden auf der anderen Seite müssen
  die Kosten gering gehalten werden.
+\end_layout
+
+\begin_layout Itemize
+Kontrolle über den IT-Prozess, durch die Konzentration auf die Definition
+ eines Qualitätsmanagementsystems (QMS), laufende Performanceüberwachung
+ gegen vordefinierte Ziele und die Implementierung eines Programms für kontinuie
+rliche Verbesserung der IT-Services.
  
 \end_layout
 
+\begin_layout Itemize
+Kontrolle über den IT-Prozess, wird erreicht durch - Festlegung der Qualitätssta
+ndards und -praktiken 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Überwachung und Prüfung interner und externer Performance gegen die definierten
+ Qualitätsstandards
+\end_layout
+
+\begin_layout Enumerate
+kontinuierliche Verbesserung des QMS 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Kontrolle über den IT-Prozess wird gemessen durch 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Prozent der mit der IT-Qualität (gewichtet nach Bedeutung) zufriedenen Stakehold
+er 
+\end_layout
+
+\begin_layout Enumerate
+Prozent der durch die Qualitätssicherung formal und periodisch geprüften
+ ITProzesse, die den Qualitätsvorgaben und Zielen entsprechen 
+\end_layout
+
+\begin_layout Enumerate
+Prozent der Prozesse, die Reviews der Qualitätssicherung (QA) unterliegen
+ 
+\end_layout
+
+\end_deeper
 \begin_layout Subsection
 PO9 Risikomanagement 
 \end_layout
@@ -783,8 +1278,63 @@ Risiken sind bei dem Ansatz von Menschen sowie Technologien immer vorhanden.
  Das Ziel ist Ermitteln der Risiken um auf diese reagieren zu können.
 \end_layout
 
+\begin_layout Itemize
+Kontrolle über den IT-Prozess, durch die Konzentration auf die Entwicklung
+ eines Risikomanagement-Framework, welches in Business und Operational Risikoman
+agement-Frameworks, Risikobewertung, Risikobegrenzung und Kommunikation
+ der ungeklärten Risiken integriert ist.
+ 
+\end_layout
+
+\begin_layout Itemize
+Kontrolle über den IT-Prozess, wird erreicht durch:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Sicherstellen, dass das Risikomanagement vollständig in die internen und
+ externen Management-Prozesse eingebettet und konstant angewendet wird
+\end_layout
+
+\begin_layout Enumerate
+Durchführen von Risikobewertungen 
+\end_layout
+
+\begin_layout Enumerate
+Empfehlen und Kommunizieren von Plänen zur Risikominimierung 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Kontrolle über den IT-Prozess wird gemessen durch:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Prozent der kritischen IT-Ziele, die von der Risikobeurteilung abgedeckt
+ sind 
+\end_layout
+
+\begin_layout Enumerate
+Prozent der identifizierten kritischen IT-Risiken, für die Maßnahmenpläne
+ entwickelt worden sind 
+\end_layout
+
+\begin_layout Enumerate
+Prozent der Risikomanagement-Maßnahmenpläne, die zur Implementierung genehmigt
+ worden sind 
+\end_layout
+
+\end_deeper
 \begin_layout Subsection
 PO10 Projektmanagement 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:PO10-Projektmanagement"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -796,24 +1346,83 @@ Zur Durchführung der IT Aufgaben werden in einer IT-Organisation verschiedene
  mit dem Projekt verbunden sind deutlich senken.
  Das in PO9 erläuterte Risikomanagement sollte sich daher auch auf die Risiken
  im Projekt erstrecken.
+ 
 \end_layout
 
-\begin_layout Section
+\begin_layout Itemize
+Kontrolle über den IT-Prozess, durch die Konzentration auf einen festgelegten
+ Programm- und Projektmanagementansatz, der auf IT-Projekte angewandt wird.
+ Dies ermöglicht die Beteiligung durch Stakeholder an Überwachung von Projektris
+iken und ermöglicht somit den Projektfortschritt.
+ 
+\end_layout
+
+\begin_layout Itemize
+Kontrolle über den IT-Prozess, wird erreicht durch:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Festlegung und Durchsetzung der Frameworks und Ansätze für Programme und
+ Projekte
+\end_layout
+
+\begin_layout Enumerate
+Veröffentlichung von der Projektmanagement-Anleitungen 
+\end_layout
+
+\begin_layout Enumerate
+Durchführung der Projektplanung für jedes Projekt, das im Projektportfolio
+ aufgeführt ist 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Kontrolle über den IT-Prozess wird gemessen durch:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Prozent der Projekte, die die Erwartungen der Stakeholder erfüllen
+\end_layout
+
+\begin_layout Enumerate
+Prozent der Projekte, die Projektmanagement-Standards und -praktiken folgen
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
 Beispiel
 \end_layout
 
 \begin_layout Standard
+Im folgende wird die Domäne Planung und Organisation an einem praktischen
+ Beispiel erläutert.
+ Dieses Beispiel orientiert sich durchgehend an Moodle (Lernraum) Technologie.
+ 
+\end_layout
+
+\begin_layout Standard
 In einer FH ist das „Kerngeschäft“ unter anderem Ausbildung von Nachwuchskräften.
- Um den Nachhaltigen integrierten Technikeinsatz zu gewährleisten der diese
- Aufgabe unterstützt, werden basiert auf einer Bestandsaufnahme die notwendigen
- Ausbaustuffen für die IT-Ausstattung entwickelt.
- Dieses Vorgehen beschreibt ein Teil des Strategischen Planes.
- Da an einer FH eine Große menge an Daten für die Benutzer wie z.B.
- Scripte, Stundenpläne Online bereitgestellt werden, muss z.B.
- folgende Frage beantwortet werden: „Wie werden Inhalte für bestimmte Zielgruppe
-n bereitgestellt“? Die Antwort auf diese Frage werden also bei der Erstellung
- der Informationsarchitektur berücksichtigt und z.B.
- die nötigen Sicherheitsstufen festgelegt.
+ Um Qualität des Studiums zu verbessern werden folgende strategische Ziele
+ festgelegt: 
+\end_layout
+
+\begin_layout Itemize
+Die Betreuung der Studierenden im Studium durch den Einsatz von eLearning
+ zu intensivieren, um dadurch die Studienabbruchquote zu verringern und
+ eine Erhöhung der Absolvierendenzahlen zu erreichen
+\end_layout
+
+\begin_layout Itemize
+Den Studierenden innerhalb und außerhalb der Universität Zugang zu den für
+ das Studium benötigten Ressourcen durch eLearning zu ermöglichen.
+ 
+\end_layout
+
+\begin_layout Standard
+Dieses Vorgehen beschreibt ein Teil des Strategischen Planes.
  
 \end_layout
 
@@ -827,50 +1436,549 @@ t zu etablieren um qualitativ höhere Gestaltung der Lehre zu ermöglichen.
  wird Moodle (Lernraum) seit 2007 produktiv eingesetzt.
  Einsatz dieser Technologie würde Vorteile den Hochschulen gegenüber verschaffen
  die diese Technologie nicht einsetzen.
- Beispiel für IT-Investitionsmanagements an einer FH: Bevor FH-Lübeck in
- die Erneuerung der Ausstattung eines Labors Investiert, wird erstmal eine
- Kosten/Nutzen Analyse erstellt.
- Diese Beinhaltet z.B.
- auf der Kostenseite: Kosten für Hard- und Software, Kosten für Trainer
- und auf Nutzenseite: Aktualität, besserer Lernerfolg wenn Nutzenseite überwiegt
- wird Investiert sonst nicht.
- Kommunizieren der Management-Ziele und Strategien an einer FH könnte z.B.
- so aussehen: 
+ 
 \end_layout
 
 \begin_layout Standard
-In dem Studiengang Informatik/Softwaretechnik soll die Fähigkeit im Team
- zu arbeiten gefördert werden, dieses Ziel sollte an die Lehrenden in dieser
- FH in anwendbaren und praktikablen Anweisungen Kommuniziert werden damit
- diese Ziele umgesetzt werden können.
- Um einen Qualifizierenden Lehrenden jedoch langfristig an der FH behalten
- zu können kommt Personalführungsmanagement ins Spiel.
- Es sind unter anderem folgende Faktoren die in dem Zusammenhang eine Rolle
- spielen: Aufstiegsmöglichkeiten, Vergütung.
- Beispiel für Qualitätsmanagement sowie Risikomanagement: An der FH müssen
- Einkaufs- und Wartungsrichtlinien für PCs beachtet werden in denen z.B.
- vorgeschrieben ist wie oft die PCs gewartet werden.
- Risikomanagement verhindert unter anderem, dass ein Virus das FH Netzwerk
- infiltriert und diesen schädigt dafür wird jeder Rechner mit dem einem
- Anti-Virus Programm ausgestattet.
- Das Virusprogramm wird auch jedem studierenden kostenlos angeboten.
+Da an einer FH eine Große menge an Daten für die Benutzer wie z.B.
+ Scripte, Stundenpläne Online durch eLearning bereitgestellt werden, muss
+ z.B.
+ folgende Frage beantwortet werden: „Wie werden Inhalte für bestimmte Zielgruppe
+n bereitgestellt“? Die Antwort auf diese Frage werden also bei der Erstellung
+ der Informationsarchitektur berücksichtigt und die nötigen Sicherheitsstufen
+ festgelegt.
+\end_layout
+
+\begin_layout Standard
+Kommunizieren der Management-Ziele und Strategien an einer FH könnte z.B.
+ so aussehen: Einer von vielen Zielen in der FH-Lübeck ist es eine variable
+ Mischung von Präsenzlehre und virtueller Lehre in vielfältigen Lernszenarien
+ anzubieten.
+ dieses Ziel sollte an die Lehrenden in dieser FH in anwendbaren und praktikable
+n Anweisungen Kommuniziert werden damit dieses umgesetzt werden kann.
+\end_layout
+
+\begin_layout Standard
+Beispiel für IT-Investitionsmanagements an einer FH: Bevor FH-Lübeck in
+ die Erneuerung und Ausbauung des eLearnings Investiert, wird erstmal eine
+ Kosten/Nutzen Analyse erstellt.
+ Diese Beinhaltet auf der Kostenseite z.B.: Kosten für Seminare um Kompetenzen
+ im Bereich eLearning für Lehrende auszubauen und Kosten für Wartung.
+ Auf der Nutzenseite dagegen: Aktualität und besserer Lernerfolg.
+ Wenn Nutzenseite überwiegt wird Investiert sonst nicht.
+ 
+\end_layout
+
+\begin_layout Standard
+Und zuletzt noch ein Beispiel für Qualitätsmanagement: An der FH müssen
+ unter anderem Wartungsrichtlinien für eLearning beachtet werden in denen
+ z.B.
+ vorgeschrieben ist wie oft dieser gewartet werden muss.
+ Diese Wartungen müssen in regelmäßigen Abständen durchgeführt werden.
  
 \end_layout
 
 \begin_layout Section
-AI
+AI Akquisition und Implementierung
+\end_layout
+
+\begin_layout Subsection
+AI1 Identifizierung automatisierter Lösungen 
 \end_layout
 
 \begin_layout Standard
-*** Folgt
+Es gilt in diesem Fall die Bedürfnisse der Anwender und die Anforderungen
+ durch die Informationsarchitektur und die Kosten zur Deckung zu bringen.
+ Automatisierte und standardisierte Lösungen erfordern bei der Anwendung
+ weniger Aufwand und sind somit zu bevorzugen.
+ Es ist also das Ziel Identifizieren automatisierter Lösungen um einen effektive
+n Gebrauch sicher zu stellen und somit Zufriedenheit der Anwenderbedürfnisse
+ zu erhöhen und gleichzeitig Kosten zu sparen.
 \end_layout
 
+\begin_layout Itemize
+Kontrolle über den IT-Prozess, durch die Konzentration auf die Identifizierung
+ technisch machbarer und kosteneffektiver Lösungen.
+\end_layout
+
+\begin_layout Itemize
+Kontrolle über den IT-Prozess, wird erreicht durch: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Festlegung von Unternehmens- und technischen Anforderungen
+\end_layout
+
+\begin_layout Enumerate
+Durchführung von Machbarkeitsstudien laut Entwicklungsstandards 
+\end_layout
+
+\begin_layout Enumerate
+Freigabe (oder Ablehnung) der Ergebnisse von Anforderungs- und Machbarkeitsstudi
+en 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Kontrolle über den IT-Prozess wird gemessen durch: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Anzahl der Projekte bei denen der prognostizierte Nutzen aufgrund falscher
+ Annahmen in der Machbarkeitsstudie nicht erreicht wurde
+\end_layout
+
+\begin_layout Enumerate
+Prozent der Machbarkeitsstudien, die vom Geschäftsprozesseigner abgenommen
+ wurden 
+\end_layout
+
+\begin_layout Enumerate
+Prozent der Benutzer/Innen, die mit der gelieferten Funktionalität zufrieden
+ sind 
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+AI2 Erwerb und Pflege von Applikationssoftware
+\end_layout
+
+\begin_layout Standard
+Es gibt einen Konflikt zwischen den qualitativen Anforderungen der Anwender
+ und Anforderungen an die IT Leistungen möglichst kostengünstig zu erbringen.
+ Leistungen sind oft kostengünstiger und effektiver durch Standardapplikationen
+ zu erbringen.
+ Ziel ist es also Applikationssoftware zu erwerben und zu pflegen, um automatisi
+erte Funktionen zur Verfügung zustellen, welche die Geschäftsprozesse effektiv
+ unterstützen.
+\end_layout
+
+\begin_layout Itemize
+Kontrolle über den IT-Prozess, durch die Konzentration auf die Sicherstellung
+ des Vorhandenseins eines zeitgerechten und kostenwirksamen Entwicklungsprozesse
+s.
+ 
+\end_layout
+
+\begin_layout Itemize
+Kontrolle über den IT-Prozess, wird erreicht durch:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Überführung von Unternehmenserfordernissen in Entwurfsspezifikationen 
+\end_layout
+
+\begin_layout Enumerate
+Einhaltung von Entwicklungsstandards für alle Modifikationen
+\end_layout
+
+\begin_layout Enumerate
+Trennung der Tätigkeiten von Entwicklung, Test und Betrieb 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Kontrolle über den IT-Prozess wird gemessen durch:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Anzahl von Problemen pro Anwendung in der Produktion, welche eine sichtbare
+ Stillstandzeit verursachen 
+\end_layout
+
+\begin_layout Enumerate
+Prozent der mit der gelieferten Funktionalität zufriedenen User 
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+AI3 Erwerb und Pflege der technischen Infrastruktur 
+\end_layout
+
+\begin_layout Standard
+Die technische Infrastruktur ist die Basis für alle durch die IT geleistete
+ Prozessunterstützung die auf der automatisierte Lösungen und Applikationen
+ aufsetzen.
+ Fehler in diesem Bereich sind fatal denn diese haben Auswirkungen auf die
+ gesamte Leistungserbringung und sind schwer zu korrigieren.
+ Ziel ist es also technischen Infrastruktur zu Erwerben und zu Pflegen,
+ um eine optimierte Unterstützung für die Geschäftsanwendungen zur Verfügung
+ zu stellen.
+\end_layout
+
+\begin_layout Itemize
+Kontrolle über den IT-Prozess, durch die Konzentration auf die Bereitstellung
+ geeigneter Plattformen für die Geschäftsanwendungen in Übereinstimmung
+ mit der definierten IT-Architektur und Technologiestandards.
+ 
+\end_layout
+
+\begin_layout Itemize
+Kontrolle über den IT-Prozess, wird erreicht durch
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Entwicklung eines mit dem technologischen Infrastrukturplan konformen Technologi
+ebeschaffungsplans 
+\end_layout
+
+\begin_layout Enumerate
+Planung der Wartung der Infrastruktur 
+\end_layout
+
+\begin_layout Enumerate
+Implementierung von Sicherheits- und Prüfmaßnahmen
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Kontrolle über den IT-Prozess wird gemessen durch
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Prozent der Plattformen, die nicht mit den definierten IT-Architektur- und
+ Technologiestandards konform sind 
+\end_layout
+
+\begin_layout Enumerate
+Anzahl der kritischer Geschäftsprozesse, die von Infrastruktur unterstützt
+ werden
+\end_layout
+
+\begin_layout Enumerate
+Anzahl der Infrastrukturkomponenten, die nicht mehr unterstützt werden 
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+AI4 Befähigen des Betriebes 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:AI4-Befähigen-des"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Der Gebrauch der IT scheitert oft nicht an den Möglichkeiten, welche die
+ Software bietet, sondern an unzureichenden zu Verfügung gestellten Dokumentatio
+nen wie z.B.
+ Gebrauchsanweisungen oder Tipps und Tricks in der Anwendung der Software.
+ Es ist also in diesem Fall das Ziel Entwicklung und Pflege von Anwender-
+ und Betriebshandbüchern Sowie auch Schulungen des Personals.
+\end_layout
+
+\begin_layout Itemize
+Kontrolle über den IT-Prozess, durch die Konzentration auf die Bereitstellung
+ wirksamer Anwender- und Betriebshandbücher sowie Schulungsunterlagen für
+ die Weiterleitung des für den erfolgreichen Betrieb notwendigen Wissens.
+ 
+\end_layout
+
+\begin_layout Itemize
+Kontrolle über den IT-Prozess, wird erreicht durch 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Entwicklung und Bereitstellung von verfügbaren Dokumenten zum Wissenstransfer
+\end_layout
+
+\begin_layout Enumerate
+Kommunikation mit und die Schulung von Usern, Businessmanagement, Support-
+ und Betriebspersonal 
+\end_layout
+
+\begin_layout Enumerate
+Erstellung von Schulungsunterlagen 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Kontrolle über den IT-Prozess wird gemessen durch 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Anzahl der Applikationen, deren IT-Verfahren sehr gut in Geschäftsprozesse
+ integriert sind 
+\end_layout
+
+\begin_layout Enumerate
+Prozent der mit den Anwenderschulungen und den Schulungsunterlagen zufriedenen
+ Geschäftsprozesseigentümer 
+\end_layout
+
+\begin_layout Enumerate
+Anzahl der Applikationen mit angemessenen Anwenderschulungen und Schulungen
+ der operativen Unterstützung.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+AI5 Zur Verfügung stellen von IT-Ressourcen
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:AI5-Zur-Verfügung"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Mögliche IT-Ressourcen sind z.B.
+ Mitarbeiter, Software, Einrichtungen.
+ Diese müssen kosteneffektiv aber effizient und unter Berücksichtigung der
+ vertraglichen Bedingungen genutzt sowie zur Verfügung gestellt werden.
+ Dabei sind Einkaufsrichtlinien und Lieferantenauswahl wichtige Kriterien.
+ Das Ziel ist es also Diejenigen Ressourcen für den IT-Betrieb kosteneffektiv
+ zur Verfügung zu stellen, die am besten zu dem Geschäft passen und dasunter
+ Reduzierung der Einkaufsrisiken.
+\end_layout
+
+\begin_layout Itemize
+Kontrolle über den IT-Prozess, durch die Konzentration auf die Beschaffung
+ und Erhaltung von IT-Fertigkeiten, die auf die Unterstützungsstrategie,
+ eine integrierte und standardisierte IT-Infrastruktur und die Reduktion
+ des IT-Beschaffungsrisikos abgestimmt sind.
+ 
+\end_layout
+
+\begin_layout Itemize
+Kontrolle über den IT-Prozess, wird erreicht durch 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Bezug professioneller rechtlicher und vertraglicher Beratung 
+\end_layout
+
+\begin_layout Enumerate
+Festlegung von Beschaffungsverfahren und standards 
+\end_layout
+
+\begin_layout Enumerate
+Beschaffung angeforderter Hardware, Software und Services entsprechend der
+ definierten Verfahren 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Kontrolle über den IT-Prozess wird gemessen durch 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Anzahl der Streitfälle im Zusammenhang mit Beschaffungsverträgen 
+\end_layout
+
+\begin_layout Enumerate
+Reduzierte Beschaffungskosten 
+\end_layout
+
+\begin_layout Enumerate
+Prozent der mit den Lieferanten zufriedenen Stakeholder 
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+AI6 Änderungsmanagement
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:AI6-Änderungsmanagement"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In jeder IT-Organisation und in jedem Geschäftsbereich treten Änderungen
+ auf.
+ Diese dürfen nicht zu Störungen oder Beeinträchtigungen der Geschäftsabläufe
+ führen.
+ Eine effektive und effiziente Behandlung und Durchführung solcher Änderungen
+ muss geregelt werden.
+ Ziel ist es also Managen von Änderungen, um die Wahrscheinlichkeit von
+ Serviceunterbrechungen sowie Störungen zu minimieren.
+\end_layout
+
+\begin_layout Itemize
+Kontrolle über den IT-Prozess, durch die Konzentration auf eine geregelte
+ Einschätzung von Auswirkungen der Implementierung aller Änderungen auf
+ die IT-Infrastruktur.
+ 
+\end_layout
+
+\begin_layout Itemize
+Kontrolle über den IT-Prozess, wird erreicht durch: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Festlegung und Kommunikation der Verfahren für Änderungen inklusive Notfallsände
+rungen
+\end_layout
+
+\begin_layout Enumerate
+Beurteilung, Priorisierung und Autorisierung der Änderungen 
+\end_layout
+
+\begin_layout Enumerate
+Verfolgung des Status der und das Berichten über Änderungen 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Kontrolle über den IT-Prozess wird gemessen durch:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Anzahl der Unterbrechungen oder Datenfehler, die durch ungenaue Spezifikation
+ oder unvollständige Beurteilung der Auswirkungen hervorgerufen sind
+\end_layout
+
+\begin_layout Enumerate
+Applikations- oder Infrastruktur-Nacharbeit, die durch mangelhafte Spezifikation
+ der Änderungen hervorgerufen ist 
+\end_layout
+
+\begin_layout Enumerate
+Prozent der Änderungen, die formale Prozesse zur Steuerung von Änderungen
+ befolgen.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+AI7 Installieren und Abnehmen von Systemen und Änderungen 
+\end_layout
+
+\begin_layout Standard
+Nachdem neue Systeme oder Änderungen entwickelt wurden, müssen diese in
+ den Betrieb überführt werden.
+ Dazu sind Tests sowie Implementierungen notwendig.
+ Diese müssen von dem abschließenden Kontrollverfahren, ob ein Auftrag vollständ
+ig und einwandfrei ausgeführt wurde, abgeschlossen werden.
+ Dies stellt sicher, dass die neuen Systeme den Anforderungen und Erwartungen
+ des Betriebes und der Anwender entsprächen.
+ Die Neue oder geänderte Systeme sollen somit nach der Einführung einwandfrei
+ und ohne Probleme arbeiten.
+\end_layout
+
+\begin_layout Itemize
+Kontrolle über den IT-Prozess, durch die Konzentration auf das Testen, damit
+ Anwendungen und Infrastrukturlösungen dem vorgesehenen Zweck entsprechen
+ und frei von Fehlern sind.
+ Aber auch Konzentration auf die Planung der Inbetriebnahme.
+ 
+\end_layout
+
+\begin_layout Itemize
+Kontrolle über den IT-Prozess, wird erreicht durch:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Etablierung der Testmethoden 
+\end_layout
+
+\begin_layout Enumerate
+Evaluierung und Genehmigung der Testergebnisse durch das Businessmanagement
+\end_layout
+
+\begin_layout Enumerate
+Durchführung des abschließenden Kontrollverfahren, ob ein Auftrag vollständig
+ und einwandfrei ausgeführt wurde (Post-Implementation-Review).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Kontrolle über den IT-Prozess wird gemessen durch:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Ausfallszeit der Anwendung oder Korrekturen an den Daten, die durch ungeeignetes
+ Testen hervorgerufen sind
+\end_layout
+
+\begin_layout Enumerate
+Prozent der Systeme die dem erwarteten Nutzen entsprechen
+\end_layout
+
+\begin_layout Enumerate
+Prozent der Projekte mit einem dokumentierten und genehmigten Testplan 
+\end_layout
+
+\end_deeper
 \begin_layout Subsection
 Beispiel
 \end_layout
 
 \begin_layout Standard
-*** Folgt
+Um die Prozesse der Domäne „Akquisition und Implementierung“ besser zu verstehen
+ kommen wir zu einem Praktischen Beispiel der sich an eLearning Technologie
+ orientiert.
+ 
+\end_layout
+
+\begin_layout Standard
+Da in jeder Organisation mit der Zeit Veränderungen auftreten ist Änderungsmanag
+ement ein wichtiger Prozess.
+ Wir nehmen mal an es soll an einer Fachhochschule eine nachhaltigen Implementie
+rung von eLearning-Innovationen gestaltet werden soll.
+ Das Stichwort ist Nachhaltigkeit deswegen soll ein Änderungsmanagement
+ eingeführt werden, der sich auf die nachhaltige Einführung von eLearning
+ als Innovationen in der Hochschullehre bezieht.
+ Dabei ist z.B.
+ die Einschätzung von Auswirkungen der Implementierung aller Änderungen
+ auf die IT-Infrastruktur wichtig.
+ 
+\end_layout
+
+\begin_layout Standard
+Viele Fachhochschulen sowie Universitäten bekommen mit der Einführung von
+ eLearning- Technologie neue Möglichkeit wie z.B.
+ online Selbsttests, die Motivation sowie Lernerfolg des Studierenden zu
+ steigern.
+ Diese Methode ist flexibeler als eine Musterlösung.
+ Und man kann anhand automatisierter Testformen Lernfortschritt messen und
+ diese Tests individuell so oft wiederholen, wie man möchte.
+ Diese automatisierte Testform verdeutlicht den Vorgang Identifizierung
+ automatisierter Lösungen.
+ 
+\end_layout
+
+\begin_layout Standard
+Bei dem Erwerb und Pflege der technischen Infrastruktur für eLearning Technologi
+e müssen z.B.
+ folgende technische Kriterien berücksichtigt werden: Erweiterbarkeit, Skalierba
+rkeit, Robustheit, Zuverlässigkeit, Fehlertoleranz, Ausfallsicherheit, Möglichke
+it der Integration vorhandener Lernmaterialien, Integration bestehender
+ Benutzerverwaltungen, Kompatibilität mit anderer und zum Teil bereits vorhanden
+er Komponentensoftware.
+\end_layout
+
+\begin_layout Standard
+Ein Lernraum ist eine komplexe Umgebung und um eine Korrekte Nutzung des
+ eLernraums zu gewährleisten den Lehrenden Umgang mit dieser Technologie
+ zu erleichtern sollten ausreichend Handbücher bereitgestellt werden.
+ Es sollen aber auch Seminarbesuche ermöglicht werden in denen die Lehrenden
+ erforderlichen eLearning-didaktischen und technischen Kompetenzen erwerben
+ können.
+ Dieses Beispiel bezieht sich auf AI4 - Befähigen des Betriebes.
 \end_layout
 
 \begin_layout Section
@@ -878,11 +1986,18 @@ Delivery und Support
 \end_layout
 
 \begin_layout Standard
-*** Allgemeine Beschreibung folgt
+***
 \end_layout
 
 \begin_layout Subsection
 DS1
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:DS1"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -891,76 +2006,167 @@ Es muss der Bedarf des geforderten Services zwischen Kunden, IT-Organisationen
  Dies bezeichnet man als Defintion von “Service Leveln”.
  Der Kunde hat einen Grundbedarf an Service, der im Service Level als Leistungsk
 riterium für Qualität und Quantität formalisiert dargestellt wird.
- Dazu trifft man Vereinbarungen, die vertraglich festgehalten werden.
- Die festgehaltenen Service Level werden regelmäßig mit der Realität verglichen,
- um Maßnahmen zur Verbesserung festzulegen
+ Akkurate Mittel dies darzustellen können zum Beispiel Balanced Scorecards
+ sein, da sie die Kundenperspektive über festzusetzende Kennzahlen gegenüber
+ der Prozessperspektive dimensionieren, unter Einbeziehung der Finanz- und
+ Potenzialperspektive.
+ 
 \end_layout
 
 \begin_layout Standard
-*** Umordnung folgt
+\begin_inset Graphics
+	filename BalancedSourceCard.png
+	scale 70
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Beispiel: An der FH werden Getränkeautomaten betrieben, die von den Kunden
- (Studierende, Mitarbeiter) genutzt werden.
- Die verschiedenen Getränke sollten alle verfügbar sein, an jedem Automat,
- in ausreichender Anzahl, in entsprechender Qualität (Haltbarkeit, Marke).
- Hierzu ist es nötig zu definieren was die FH Lübeck erwartet.
- Der externe Zulieferer wird als “underpinning contracter” bezeichnet (DS
- 2)
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Das Schema einer Balanced Sourcecard kann hilfreich sein, um nötige vertragliche
+ Vereinbarungen aus DS1 zu komplettieren, damit sie regelmäßig mit der Realität
+ verglichen werden.
+ So kann über Maßnahmen der Verbesserung entschieden werden.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Im Bezug auf DS 2 (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:DS-3:-Performance"
+
+\end_inset
+
+) sind externe Zulieferer 
+\begin_inset Quotes gld
+\end_inset
+
+underpinning contractors
+\begin_inset Quotes grd
+\end_inset
+
+.
+ Das bedeutet sie sind unter Umständen je nach vertraglicher Bindung und
+ Entwicklung wechselbar.
 \end_layout
 
 \begin_layout Subsection
 DS 2: Lieferanten Management 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:DS-2:-Lieferanten"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Hier wird die Zulieferung bezüglich der in DS 1 getroffenen Service Level
- Absprachen betrachtet.
+Hier wird die Zulieferung bezüglich der in DS 1 (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:DS1"
+
+\end_inset
+
+) getroffenen Service Level Absprachen betrachtet.
  Eine Lieferung stellt ein Risiko dar: Vorkasse, Versicherung, Beschädigung,
- Pünktlichkeit sind Aspekte die dies verdeutlichen.
+ Pünktlichkeit sind Aspekte die dies im Unternehmensalltag verdeutlichen.
  Die Rollen der Verantwortlichen müssen klar festgelegt werden.
-\end_layout
+ Dies kann über RACI*** Charts geschehen, oder auch über die Verwendung
+ von Qualitätsmanagement Maßnahmen wie auf dem EFQM*** Modell basierende
+ Kontrollzyklen, die Menschen, Prozesse und Ergebnisse in Beziehung setzen.
+ Ziel ist gemäß dem Plan-Do-Check-Act*** Zyklus eine kontinuierliche Verbesserun
+g im Bezug auf die DS 1 Service Level Absprachen.
+ Zentral ist hier, dass Maßnahmen getroffen werden können, wie zum Beispiel
+ die Wahl eines konkurrierenden Zulieferungsunternehmen.
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-*** Umordnung folgt, Getränkebeispiel wird verschwinden
-\end_layout
 
-\begin_layout Standard
-Beispiel: Die Abhängigkeit des Getränkeverkaufes (interne Anforderung) von
- der Lieferung (externe Anforderung) macht es nötig Kontrolle auf den Prozess
- auszuüben.
- Wenn die an der FH bestellten Getränke mit DHL*** kommen, aber keiner den
- Schlüssel für den Getränkeautomaten hat, kann trotzdem nicht an den Automaten
- verkauft werden.
- Daher muss die Rolle klar sein, ob jemand in der FH den Automaten befüllt,
- oder ob es einen Lieferservice gibt, der die Bestückung ebenso übernimmt.
- 
 \end_layout
 
 \begin_layout Subsection
 DS 3: Performance und Kapazitätsmanagement 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:DS-3:-Performance"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Die Anforderungen an die Systeme werden überwacht.
+Die verabredeten DS 1 Kennzahlen (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:DS1"
+
+\end_inset
+
+) müssen kontrolliert werden, und unter Berücksichtigung der Entwicklung
+ der relevanten Kennzahlen müssen Entscheidungen getroffen werden (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:DS-2:-Lieferanten"
+
+\end_inset
+
+).
+ Diese können eine Erhöhung oder Erniedrigung des festgesetzten kapazitären
+ Bedarfs sein, oder eine Veränderung der Performance Kennzahlen (Potenzialperspe
+ktive).
 \end_layout
 
 \begin_layout Standard
-***
-\end_layout
+Um dies zu unterstützen definiert man in DS 3 Datenpunkte***, die wie in
+ DS 1 erwähnt, Abweichungen von den Kennzahlen registrieren.
+ 
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-Beispiel: wie oft wird ein Getränkeautomat frequentiert (benutzt).
- Werden alle Getränkeautomaten im Flur genutzt oder nur die neben dem warmen
- Rechenzentrum.
- - Müssen daher alle gleichermaßen bestückt und betrieben werden.
- Muss der Getränkeautomat im obersten Flur (der nachts abgeschlossen ist)
- auch nachts kühlen?
+Das bedeutet DS 2 betrachtet sowohl Verantwortungen, als auch Leistungsentwicklu
+ng bei Zulieferern.
+ Die anforderungs-orientierte Überwachung ist Teil von 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:DS-3:-Performance"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
 DS 4: Continuity Management 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:DS-4:-Continuity"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -969,47 +2175,102 @@ Im Falle einer Störung muss der Weiterbetrieb gewährleistet werden.
  auch kleinere Alltagsstörungen, die den Betrieb trotzdem empfindlich gefährden
  können.
  Die Auswirkungen auf das Geschäft sollen minimiert werden.
-\end_layout
+ Das bedeutet auch, dass Maßnahmen um den Weiterbetrieb sicher zu stellen,
+ in einem realistischen Finanzrahmen bleiben müssen, und dennoch effiziente
+ Sicherheit für den Weiterbetrieb gewährleisten sollen.
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-***
-\end_layout
-
-\begin_layout Standard
-Beispiel: Ein Stromausfall im Cluster, der komplexe Berechnungen zur Schwarmtheo
-rie leistet, kann zu einem kompletten Systemverlust führen wenn die Integrität
- beschädigt wird.
- Um vor Stromausfällen zu schützen kann man USVs einsetzen.
- Der Einsatz von anderen Maßnahmen zur Sicherung der Ergebnisse oder Fortführung
- des Betriebes wird in Fault-Trees modelliert.
+Ein probates Mittel im IT Alltag Continuity Management Maßnahmen zu betrachten
+ ist beispielsweise Fault Tree Analysis*** (FTA), welches eine Baumstruktur
+ von Folgeevents definiert, um Kettenreaktionen zu modellieren, die den
+ Unternehmensalltag im Bezug auf Continuity Aspekte gefähren können.
+ Mit FTA modelliert man beispielsweise Stromausfälle in sensiblen Industrieanlag
+en oder Rechenzentren, die vertraglich zu einer hohen Verfügbarkeit verpflichtet
+ sind.
  
 \end_layout
 
 \begin_layout Subsection
 DS 5: Security Management 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:DS-5:-Security"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 Sicherheit in Unternehmen muss effizient sein, sollte jedoch idealerweise
  die Arbeitsprozesse nicht zu behindern.
  Dennoch haben die Anforderungen an Sicherheit heutzutage eine hohe Dynamik.
-\end_layout
+ Unternehmen, die mit Kredikarten Daten arbeiten, müssen beispielsweise
+ Zertifikate über Complicance Audits erlangen, wie PCIDSS.
+ Die Maßnahmen, die in solchen Audits geprüft werden, sind häufig in Jahreskatal
+ogen gelistet.
+ Prinzipiell handelt es sich um Checklisten basierte Tests.
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-***
-\end_layout
+Die Ergebnisse von externen oder internen Tests und Audits müssen betrachtet
+ werden, das heißt es muss ein Internes Report Management geben, welches
+ Security Baselines und Complicance Strategien (können nach DS 1 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:DS1"
 
-\begin_layout Standard
-Beispiel: Es gibt gesetzliche Auflagen nach denen in Bereichen, in denen
- sensible Daten in der IT gehandhabt werden, ein Level an Compliance nachzuweise
-n ist, das ein Mindestmaß an IT Sicherheit darstellt.
- An der FH Lübeck betrifft das beispielsweise den Netzzugang, der speziell
- überwacht werden muss, damit keine Spam EMail oder ähnliches aus dem FH
- Netz ins WAN vordringt.
+\end_inset
+
+ getroffene Service Level Anforderungen sein) betrachtet.
+ Je nach Unternehmen muss auf akute Gefährdungen (eventuell sogar nach DS
+ 4 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:DS-4:-Continuity"
+
+\end_inset
+
+) mit geschulten (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:DS7:-Anwendungsschulung-und"
+
+\end_inset
+
+) Incident Response Teams reagiert werden können, oder es müssen präventive
+ Maßnahmen kontrolliert, definiert und evaluiert werden.
+ Solche Maßnahmen können Datenklassifizierung sein oder Überwachsmaßnahmen.
+\begin_inset Newline newline
+\end_inset
+
+Die Verbesserung solche Prozesse kann mittels des PDCA Zyklus geschehen,
+ mit speziellen Instrumenten wie Fault Tree Analysis, oder mit IT Risk Managemen
+t Maßnahmen, die die Evaluierung von Assesments leisten, speziell hinsichtlich
+ unternehmensinterner Kriterien.
+ Diese Kriterien müssen allerdings exportiert werden um eine transparente
+ Risikoevaluation zu gewährleisten und um Verstöße gegen nötige Compliance
+ Richtlinien zu vermeiden, die Bedeutung für den Unternehmensumsatz (DS
+ 6, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:DS-6:-Kostenmanagement"
+
+\end_inset
+
+) haben können.
 \end_layout
 
 \begin_layout Subsection
 DS 6: Kostenmanagement
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:DS-6:-Kostenmanagement"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1017,10 +2278,27 @@ Um die Kosten eines Service im Griff zu halten ist es nötig Kostentreiber
  im Unternehmen zu identifizieren, sodass die Kostenentwicklung in Betracht
  gezogen werden kann.
  Auf die Kostentreiber kann eingewirkt werden um Kosten zu senken.
- Je nach Service Level entstehen unterschiedliche Kostenstrukturen, die
- an messbaren Ressourcen identifiziert werden müssen.
- Unnötige Ressourcen sollen in eine Kostenüberwachung fließen.
- Durch exakte Zuweisung können die Kosten mit externen Anbietern verglichen
+ Je nach Service Level (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:DS1"
+
+\end_inset
+
+) entstehen unterschiedliche Kostenstrukturen, die an messbaren Ressourcen
+ (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:DS-3:-Performance"
+
+\end_inset
+
+) identifiziert werden müssen.
+ Unnötig gewordene Ressourcen sollen in DS 6 eine Kostenüberwachung fließen.
+\begin_inset Newline newline
+\end_inset
+
+Durch exakte Zuweisung können die Kosten mit externen Anbietern verglichen
  werden - für den Vergleich müssen jedoch die entsprechenden Kenntnisse
  vorhanden sein, d.
  h.
@@ -1028,57 +2306,98 @@ Um die Kosten eines Service im Griff zu halten ist es nötig Kostentreiber
  Andernfalls besteht die Gefahr unzulässige Vergleiche anzustellen.
  Mit der Verrechnung der Kosten sind Mittel vorhanden, die die Refinanzierung
  der IT Infrastruktur ermöglichen.
- IT Mittel im Jahresbudget muss die organisatorischen Anforderungen der
- Firma und die Verrechnungen beim Anwender enthalten.
- PO 5 - Investitionsplanung - muss dabei explizit berücksichtigt werden.
-\end_layout
+ Die Summe der IT Mittel im Jahresbudget muss die organisatorischen Anforderunge
+n der Firma und die Verrechnungen beim Anwender enthalten.
+ 
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-Das Kostenmanagement steht in verschiedenen Beziehungen mit anderen Prozessen:
-\end_layout
+Die Investitionsplanung nach PO 5 (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:PO5-IT-Investitionsmanagement"
 
-\begin_layout Standard
-PO4, PO5, PO10, DS1 -> Kostenmanagement (IT Finanzen PO5 , Prozess, Performance-
-Berichte ME1)
-\end_layout
+\end_inset
 
-\begin_layout Standard
-(Abbildung folgt - Nachbearbeitung - Tool Absprache)
-\end_layout
+) muss dabei explizit berücksichtigt werden.
+ Das Kostenmanagement steht massiv in verschiedenen Beziehungen mit anderen
+ Prozessen: PO 4 ( 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:PO4-Definieren-der"
 
-\begin_layout Standard
+\end_inset
+
+), PO 5 (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:PO5-IT-Investitionsmanagement"
+
+\end_inset
+
+) und PO 10 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:PO10-Projektmanagement"
+
+\end_inset
+
+ wirken auf das Kostenmanagement ein: da PO 4 das Investitionsmanagement
+ leistet, und PO 5 die Kontrolltiefe je nach Unternehmensstruktur und Unternehme
+nsplanung etabliert, ist das Projektmanagement (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:PO10-Projektmanagement"
+
+\end_inset
+
+) verantwortlich anhand von Performance Berichten (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:ME-1:-Überwachen"
+
+\end_inset
+
+) Service Level nach innen zu überwachen (nach DS 1, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:DS1"
+
+\end_inset
+
+).
+ Und nicht nur gegenüber externen Zulieferern nach DS 2 (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:DS-2:-Lieferanten"
+
+\end_inset
+
+).
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 Eine reine Betrachtung nach Kosteneffizienz ist nicht möglich, da die Leistungsf
 ähigkeit der Komponenten in direkter Relation zur Effizienz steht.
-\end_layout
-
-\begin_layout Standard
-offene Fragen: Was ist Compliance bei einem Kostenmodell?
-\end_layout
-
-\begin_layout Standard
-Beispiel: Die für die Studententerminals nötigen Anwendungsprogramme sind
- veraltet und es müssen neue angeschafft werden, um mit dem Fortschritt
- schritt zu halten und neue Systeme zu unterstützen.
- Speziell bei einigen PC Systemen fällt allerdings auf, dass sie nicht mehr
- kompatibel sind, da die entsprechende Software explosionsartig höhere Systemanf
-orderungen stellt.
- Entsprechend muss diese Software als Kostentreiber identifiziert werden
- und ihr Bedarf muss evaluiert werden hinsichtlich der Notwendigkeit um
- das für die Studenten nötige Service Level zu erbringen.
- Es kann nicht lediglich auf den Preis geachtet werden, denn wenn die Software
- für die Fortführung eines Studienganges von essentieller Bedeutung ist,
- wäre der Service an sich gefährdet.
- Allerdings kann ein externer Anbieter, beispielsweise ein “Cloud Service”,
- der per Remote Service jene Software zu einem Festpreis zur Verfügung stellt,
- günstiger sein, als alle lokalen Clients zu updaten.
- Sofern der Service gleichwertig ist, und die Verfügbarkeit zu den Ballungszeite
-n gewährleistet ist (Praktikum, alle Studentzen nutzen den Client gleichzeitig
- um sich zu verbinden).
+ Trotzdem muss natürlich die Compliance des in PO 4 getroffenen Kostenmodells
+ eingehalten werden, das mit Mitteln der Cooperate Finance etabliert werden
+ muss.
  
 \end_layout
 
 \begin_layout Subsection
 DS7: Anwendungsschulung und Training
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:DS7:-Anwendungsschulung-und"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1087,71 +2406,181 @@ Ein neues IT System allein bildet ohne entsprechende Anwenderkompetenz keinen
  Die Anwenderkompetenz kann durch Mitarbeiter-Schulungen und Training gesteigert
  werden.
  Diese Kompetenz umfasst ebenso Risikobewusstsein bei den Verantwortlichkeiten
- im Einsatz.
+ im Einsatz (betrifft DS 5, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:DS-5:-Security"
+
+\end_inset
+
+) .
  Für neue Mitarbeiter können spezielle Security Trainings verpflichtend
  sein, oder für Security Management oder Administration.
  Die Durchführung der Schulungen ist in einem Curriculum festzuhalten, das
- als Schuldungsplan fungiert.
+ als Schulungsplan fungiert.
  Hierbei jedoch sind die Schulungsmethoden zu evaluieren, da es sich um
  den Einkauf zusätzlicher externe Leistungen handeln kann, oder um ein eigens
  entwickeltes Trainingssystem.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Beispiel: Mitarbeiter aus dem Bereich Elektrotechnik, die in der Digitalen
- Signalverarbeitung tätig sind, müssen in der Lage sein mit dem angeschafften
- Spectrum Analyzer oder dem Oszilloskop umzugehen.
- Reicht es eine interne Einweisung zu bekommen, oder ist das System derart
- komplex, dass ein Dienstleister eine Schulung leisten muss.
- 
+Mittel für DS 7 in Unternehmens liegen oft im Verantwortungsbereich von
+ Human Ressources, welches auch eine Schnittstelle zur Internalisierung
+ erworbenen Wissens definieren kann, hinsichtlich DS 8.
 \end_layout
 
 \begin_layout Subsection
 DS 8: Anwenderunterstützung
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:DS-8:-Anwenderunterstützung"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Betreffend DS 7 stellt DS 8 die Unterstützung für den Gebrauch der Systeme.
+Betreffend DS 7 stellt DS 8 die Unterstützung für den Gebrauch der vorhandenen
+ Systeme in den Vordergrund.
  Mitarbeiter müssen die IT Systeme auch praktisch bedienen können, und oft
  ergeben sich beim Einsatz trotz Schulungen offene Fragen.
-\end_layout
+ 
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-A14-17, DS1, DS4, DS5, DS9, DS10, DS 13 -> Anwenderunterstützung Service
- Requests - > A16 Vorfalls-Berichte -> DS 10 Anwenderzufriedenheit -> DS
- 7, ME 1 Prozess, Performance Berichte -> ME 1
-\end_layout
+Dies trifft ins besonders dann zu, wenn im Rahmen des Konfigurationsmanagements
+ (siehe 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:DS-9:-Konfigurationsmanagement"
 
-\begin_layout Standard
-Beispiel: Für die Laborgeräte im Labor gibt es Support-Hotlines, die angerufen
- werden können, bei speziellen Fragen zu Einsatz.
+\end_inset
+
+) Anpassungen vorgenommen werden müssen (nach A16, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:AI6-Änderungsmanagement"
+
+\end_inset
+
+) um Service Requests gerecht zu werden gemäß DS 10 (siehe 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:DS-10:-Problem"
+
+\end_inset
+
+), da Anwenderzufriedenheit erheblichen Einfluss auf die potenziell mögliche
+ Leistung des Unternehmens haben kann, was auch in der Betrachtung von Balanced
+ Scorecards reflektierbar ist, wenn Performance Berichte nach ME 1 (siehe
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:ME-1:-Überwachen"
+
+\end_inset
+
+) nach Einführung eines neuen IT Systems negative statt positive Entwicklung
+ aufweisen.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Weiterhin spielen A 14, A 15 und A16 (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:AI4-Befähigen-des"
+
+\end_inset
+
+ bis 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:AI6-Änderungsmanagement"
+
+\end_inset
+
+) eine erhebliche Rolle, da Betriebsbefähigung hinreichende Bedingung für
+ operativen Betrieb ist.
+ So können teure Fehler vermieden werden, die Zeit- und Ressourcen-intensives
+ Nachbearbeiten nötig machen.
 \end_layout
 
 \begin_layout Subsection
-DS 9: Konfigurationsmanagement
+DS 9: Konfigurationsmanagement 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:DS-9:-Konfigurationsmanagement"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 Konfigurationsmanagement ist eine der Kernaufgaben der IT, da unautorisierte
  Veränderungen verhindert werden müssen, physische Existenz nachzuweisen
  ist, und damit Veränderungen zu managen sind.
- Hierzu werden Vorschriften (Policies) und Strategieen (Schnittstellen-Verabredu
-ngen z.
- B.) entwickelt, um eine Zusammenarbeit von Prozessen zu ermöglichen.
-\end_layout
+ Hierzu werden Vorschriften (Policies) und Strategien (Schnittstellen-Verabredun
+gen und Benutzerordnungen) entwickelt, um eine Zusammenarbeit von Prozessen
+ zu ermöglichen.
+ Dies können einfache Passwort Richtlinien sein, oder komplexe Setup Regeln
+ für IT Services.
+ 
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-Beispiel: die Studenten arbeiten zwar als normale unprivilegierte User auf
- ihren Systemen, aber für spezielle Aufgaben sind Applikationen so eingestellt,
- dass Super-User Rechte gewährt werden.
- Beispielsweise Wireshark im Rechnernetze Praktikum.
- Der Prozess der Durchführung dieses Praktikums benötigt diese Ausnahme,
- die im Rahmen der Policy, die Useraktivitäten auf den Systemen restriktiviert,
- festgehalten ist.
+Konfigurationsmanagement kann bedeutsam für die Sicherheit in Unternehmen
+ sein, nach DS 5 (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:DS-5:-Security"
+
+\end_inset
+
+), da manche Complicance Richtlinien beispielsweise Passwortsicherheit mit
+ Mindestlängen definieren.
+ Rückwirkend betrifft Konfigurationsmanagement natürlich DS 7 und DS 8,
+ da Benutzer ein erwartungskonform konfiguriertes System erwarten.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Weiterhin sollte aus Gründen der Wartbarkeit Homogenität bei IT Systemen
+ angestrebt werden, um eine Kostenexplosion hinsichtlich nötigen Personalaufwand
+s bei Wartungsarbeiten zu verhindern.
+ Erfahrungen und Techniken (Daten, Konfigurationsformate, Systembackups
+ etc.) mit IT in Unternehmen sollten übertragbar bleiben, es sollte also
+ zudem Langzeitsupport von Soft- und Hardware angestrebt werden, was unter
+ Umständen höhere Anschaffungskosten nach DS 6 (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:DS-6:-Kostenmanagement"
+
+\end_inset
+
+) erzeugt.
+ 
 \end_layout
 
 \begin_layout Subsection
-DS 10: Problem Management
+DS 10: Problem Management 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:DS-10:-Problem"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1165,43 +2594,119 @@ gen auf den Service, oder solche Fehler, deren Ursache nicht bekannt ist.
  nicht stört.
  Beispielsweise können Probleme mit Checklisten vermieden werden, oder für
  Incidents müssen entsprechende Maßnahmen autorisierbar sein.
-\end_layout
+ Beispielsweise aus dem Security Management nach DS 5, welches den Aufbau
+ Security Incident Response Teams definieren kann.
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-A16, DS 9.
- DS 10, DS 13 - > Problem Management Änderungsverfolgung -> A 16 Aufgezeichnete
- Probleme Bekannte Probleme, Workarounds -> DS 8 Prozess, Performance Berichte
- -> ME 1
-\end_layout
 
-\begin_layout Standard
-Beispiel: Studenten möchten einen Leistungsnachweis haben über die erbrachten
- Prüfungsleistungen.
- Dieser Nachweis ist zu jedem Zeitpunkt des Studiums auszustellen, und die
- Fachhochschule hat die Pflicht die Korrektheit zu gewährleisten.
- Störungen oder Umstellungen bei den dazu bereit gestellten Terminals dürfen
- den Service für die Studierenden nicht betreffen, und müssen bekannt sein.
- Änderungen an den Leistungen sind zu betrachten.
- *** 
+\begin_inset Newline newline
+\end_inset
+
+Wichtig ist hier auch im Zusammenhang mit dem Konfigurationsmanagement (nach
+ DS9, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:DS-9:-Konfigurationsmanagement"
+
+\end_inset
+
+) eine sachgerechte Änderungsverfolgung zu gewährleisten, sodass Ursachen
+ von Incidents gefunden werden können, und in die interne Knowledge Base
+ Richtlinien zur Vermeidung einfließen können (nach A16 bzw.
+ DS9 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:AI6-Änderungsmanagement"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:DS-9:-Konfigurationsmanagement"
+
+\end_inset
+
+).
+ Dies kann nachhaltig Performance Berichte (ME 1, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:ME-1:-Überwachen"
+
+\end_inset
+
+) verbessern.
 \end_layout
 
 \begin_layout Subsection
 DS 11: Data Management
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:DS-11:-Data"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 In Unternehmen sind heutzutage Daten wertvoll.
  - Sie müssen sorgfältig behandelt werden, da der Verlust von Daten erhebliche
  Auswirkungen auf alle Services haben kann.
- Speichersysteme müssen gemanaget werden, Kapazitäten geschaffen, Backups
- geplant, und Integrität muss überprüft werden.
-\end_layout
+ Dennoch gibt es eine steigende Tendenz, dass Unternehmen zunehmen kritische
+ Daten verlieren (nach 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Baker2011"
 
-\begin_layout Standard
-Beispiel: Ein Verlust sämtlicher Prüfungsleistungen aus der Datenbank der
- Fachhochschule würde den Fortbestand der Studiengänge gefährden.
- Entsprechend ist der Stand regelmäßig zu backuppen, und die Integrität
- der Backups und die Fähigkeit der Wiederherstellung zu überprüfen.
+\end_inset
+
+).
+ 
+\begin_inset Newline newline
+\end_inset
+
+Speichersysteme müssen gemanaget werden, Kapazitäten geschaffen (DS 3, betrifft
+ underpinned cotractors im Falle von Cloud Computing), Backups geplant (DS
+ 5, Secruity Management), und Integrität muss überprüft werden (um zum Beispiel
+ alte Backups mit neuen Systemen noch verwenden zu können).
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Data Management ist Kernbereich von IT Administration in Unternehmen, da
+ Fehler im Falle von mangelhaften Continuity Management (siehe DS4, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:DS-4:-Continuity"
+
+\end_inset
+
+) hohe Kosten verursachen können.
+ Zum anderen muss klar sein, welche Daten notwendigerweise vorgehalten werden,
+ da beispielsweise das Speichern von kritischen Informationen wie Kreditkarten
+ rechtlichen Einschränkungen unterliegt, spezielles Security Management
+ (DS 5) nach sich zieht, und in vielen Fällen nicht nötig ist.
+ Data Management kann ein zentraler Kostenträger sein (siehe DS 6, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:DS-6:-Kostenmanagement"
+
+\end_inset
+
+ Kostenmanagement), denn zwar ist Speicherhardware relativ günstig, aber
+ versicherter Speicher - wenn beispielsweise ein Storage Anbieter benutzt
+ wird - ist mit teuren Verträgen verbunden, je nach angestrebten Service
+ Leveln (DS 1).
+ Hierbei muss auch aus juristischer und versicherungstechnischer Sicht eine
+ Definition der Erwartungshaltung des Unternehmens folgen, ins besonders
+ nach Erwägungen aus DS 4, da eventuell günstige Cloud Computing Anbieter
+ keine Haftung für Datenverlust übernehmen, und ein Outsourceing damit eine
+ Entscheidung des Risk Managements (Teil von DS 5) wird.
 \end_layout
 
 \begin_layout Subsection
@@ -1212,25 +2717,79 @@ DS 12: Facility Management
 Die Gebäudestruktur und Einrichtung muss betrachtet werden, da sie essentielle
  Auswirkungen auf den Betriebsalltag hat.
  Geeignete physikalische Umgebung ist zu schaffen und zu warten.
-\end_layout
+ 
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-Beispiel: Die Ausbreitung von WLAN über den Universitätscampus benötigt
- spezielle Räume für die Access Points, Strom, Uplink, Kühlung, und spezielle
- Masten und Antennen.
- Diese müssen so geschaffen werden, dass sie eine 100%ige Signalabdeckung
- in allen Räumen erreichen.
- DS 13: Operationsmanagement Ziel ist es zu planen, welche Aktivitäten zu
- welchem Zeitpunkt ausgeführt werden.
- Bereiche müssen zwar prioretisiert werden, aber kein Bereich darf übermäßig
- vernachlässigt werden.
-\end_layout
 
-\begin_layout Standard
-Beispiel: Die Baustellen vor dem Gebäude sollten nicht zur Zeit der Durchführung
- von Klausuren oder mündlichen Prüfung fortgeführt werden.
- Entsprechend ist eine Erweiterung des Parkplatzes beispielsweise in den
- Semesterferien vorzunehmen.
+\begin_inset Newline newline
+\end_inset
+
+Dies betrifft das Unternehmen gesamt: betrachtet man DS 5 (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:DS-5:-Security"
+
+\end_inset
+
+), das Security Management, muss neben IT technischen Erwägungen auch der
+ physischer Zugang zu Speicherhardware durch geeignete Maßnahmen beschränkt
+ werden.
+ Data Management (DS 11, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:DS-11:-Data"
+
+\end_inset
+
+), wird schwieriger, wenn regelmäßig Probleme mit der Infrastruktur vor
+ Ort auftreten.
+ Dies kann erhebliche Kosten verursachen, nach DS 6 (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:DS-6:-Kostenmanagement"
+
+\end_inset
+
+) bzw.
+ DS 9 (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:DS-9:-Konfigurationsmanagement"
+
+\end_inset
+
+) bei notwendiger Neuanschaffung, wenn sie eine Systemumstellung impliziert.
+ Manche IT Systeme haben eine unersetzliche Bedeutung in Unternehmen.
+\begin_inset Newline newline
+\end_inset
+
+Unter Facility Management fällt ebenso die Planung von handwerklichen Arbeiten,
+ die Lärmbelästigung erzeugen können.
+ Es sollte erwogen werden ob dadurch negative Effekte nach ME 1 auftreten.
+ Außerdem überprüft werden muss die geeignete Bereithaltung notwendiger
+ Schlüssel, die im Rahmen der Einflüsse von DS 5 hinsichtlich DS 11 bei
+ unautorisiertem physischen Zugang zu Datenverlust führen können.
+ Viele Schlösser sind heutzutage digital (RFID basiert, Zugangskarten, Codes,
+ Alarmanlagen), weshalb eine Koordination mit anderen Bereichen von zunehmender
+ Bedeutung ist.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Bereiche wie Reinigung, Gebäudesicherheit oder auch Klimatisierung sind
+ zum Beispiel entschiedene Bereiche des Facility Managements, die auch im
+ Rahmen des Continuity Managements (DS 4, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:DS-4:-Continuity"
+
+\end_inset
+
+) von Bedeutung sein können.
 \end_layout
 
 \begin_layout Subsection
@@ -1238,7 +2797,1076 @@ Beispiel
 \end_layout
 
 \begin_layout Standard
-*** Folgt
+Es soll an einem Beispiel von der FH Lübeck konkretisiert werden, die die
+ einzelnen Prozesse der Delivery und Support Domäne von COBIT betrachtet
+ werden können.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Im Rahmen des Praktikums einer Lehrveranstaltung 
+\begin_inset Quotes gld
+\end_inset
+
+Signale und Systeme
+\begin_inset Quotes grd
+\end_inset
+
+ des Fachbereichs Elektrotechnik und Informatik ist die Arbeit mit einer
+ speziell zu fertigenden Platine geplant.
+ Die Studenten sollen mit der Platine digitale Signalverarbeitung erforschen.
+ Die Platine muss bei einem externen Anbieter gefertigt werden, da es viele
+ Lötstellen durch-kontaktiert werden müssen.
+ Es wird eine Stückzahl von 32 Platinen bestellt, zum Preis von 20 Euro
+ für 4 Platinen auf einer Euro-Platine.
+ Die Platine soll danach selbstständig bestückt, und im Labor verwendet
+ werden.
+ Im Labor soll Software für das Zusammenspiel mit der Platine entwickelt
+ werden.
+ Die Ergebnisse sollen abschließend zur Bewertung vorgestellt werden.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Im Folgenden ein RACI Chart für diesen Prozess:
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+RACI Chart - Beispiel
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="15" columns="7">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rotate="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rotate="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Professor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rotate="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Student
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rotate="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hersteller
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rotate="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sekretariat
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rotate="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Post
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" rotate="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+WiMi
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Liefertermin vereinbaren
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lieferung annehmen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lieferung aushändigen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Platine entwerfen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Platine testen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Platine bestücken
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Programmierung
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Platine bezahlen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Abrechnung verwalten
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bestückung bestellen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Arbeit bewerten
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bewertung speichern
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bewertung ausstellen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Praktikum durchführen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nach der Bestellung ist automatisch eine Vorstellung des Service Levels
+ entstanden (DS 1), welches erwartet wird.
+ Das Material und der Lieferzeitpunkt sind verabredet.
+ Dies lässt sich mit einer Balanced Scorecard darstellen: 
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -1246,7 +3874,14 @@ ME
 \end_layout
 
 \begin_layout Subsection
-ME 1: Überwachen und Evaluieren der IT Performance
+ME 1: Überwachen und Evaluieren der IT Performance 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:ME-1:-Überwachen"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1255,7 +3890,15 @@ Die Service Ziele der IT müssen über Prozesse an der richtigen Stelle überwac
  Diese Prozesse müssen sich stetig verbessern, indem sie die wesentlichen
  Testpunkte betrachten, angemessen in Bezug auf Aufwand: die primär nötigen
  Daten müssen geliefert werden.
- Durch die notwendigen Daten können die IT Prozesse an die Anforderungen
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Erst durch die notwendigen Daten können die IT Prozesse an die Anforderungen
  des Kunden angepasst werden, unter Einhaltung der Richtlinien (Policies)
  und Standards.
  Ziel ist es Einblick in IT Kosten, Nutzen und Strategie in Übereinstimmung
@@ -1326,7 +3969,7 @@ text berücksichtigend auf den Punkt bringen.
 \begin_layout Standard
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
-bibfiles "./mypubs-utf8"
+bibfiles "/home/wishi/Documents/My Collection"
 options "plainnat"
 
 \end_inset
