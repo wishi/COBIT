@@ -3145,10 +3145,10 @@ reference "sub:DS-6:-Kostenmanagement"
  wird - ist mit teuren Verträgen verbunden, je nach angestrebten Service
  Leveln (DS 1).
  Hierbei muss auch aus juristischer und versicherungstechnischer Sicht eine
- Definition der Erwartungshaltung des Unternehmens folgen.
- - Besonders nach Erwägungen aus DS 4, da eventuell günstige Cloud Computing
- Anbieter keine Haftung für Datenverlust übernehmen, und ein Outsourceing
- damit eine Entscheidung des Risk Managements (Teil von DS 5) wird.
+ Definition der Erwartungshaltung des Unternehmens folgen, ins besonders
+ nach Erwägungen aus DS 4, da eventuell günstige Cloud Computing Anbieter
+ keine Haftung für Datenverlust übernehmen, und ein Outsourceing damit eine
+ Entscheidung des Risk Managements (Teil von DS 5) wird.
 \end_layout
 
 \begin_layout Subsection
@@ -3231,8 +3231,8 @@ Schlösser
 \end_inset
 
 Bereiche wie Reinigung, Gebäudesicherheit oder auch Klimatisierung sind
- zum Beispiel entscheidende Bereiche des Facility Managements, die auch
- im Rahmen des Continuity Managements (DS 4, 
+ zum Beispiel entschiedene Bereiche des Facility Managements, die auch im
+ Rahmen des Continuity Managements (DS 4, 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sub:DS-4:-Continuity"
@@ -3254,8 +3254,8 @@ name "sub:Beispiel"
 \end_layout
 
 \begin_layout Standard
-Es soll an einem Beispiel aus dem Alltag der FH Lübeck konkretisiert werden,
- wie die einzelnen Prozesse der Delivery und Support Domäne von COBIT betrachtet
+Es soll an einem Beispiel von der FH Lübeck konkretisiert werden, die die
+ einzelnen Prozesse der Delivery und Support Domäne von COBIT betrachtet
  werden können.
 \begin_inset Newline newline
 \end_inset
@@ -4572,12 +4572,13 @@ name "sec:Monitoring-und-Evaluation"
 \begin_layout Standard
 In dieser Domain befinden sich Prozesse des Bereichs Monitoring und Evaluation.
  COBITs Top Down Steuerungsansatz bezieht einen Großteil seiner Dynamik
- aus den durch diese Prozesse gewonnenen Daten, die zum Erfolg der Etablierung
- des Frameworks im Unternehmen beitragen.
+ aus den durch diese Prozesse gewonnen Daten, die entsprechen quantitativ
+ und qualitativ zum Erfolg der Etablierung des Frameworks im Unternehmen
+ beitragen.
  Es werden nicht nur Datenaufkommen von Applikationen gemessen, sondern
  auch Nutzungsverhalten.
- Letzte können Aufschluss über die produktiven Kapazitäten geben, die in
- der IT durch ihre Benutzer aufgebaut sind.
+ Letzte können ins besonders Aufschluss über die produktiven Kapazitäten
+ geben, die in der IT durch ihre Benutzer aufgebaut sind.
 \end_layout
 
 \begin_layout Subsection
@@ -4644,8 +4645,8 @@ Die nötigen Daten für ME 1 müssen auf Korrektheit überprüft werden.
 \end_layout
 
 \begin_layout Standard
-Es ist wichtig den Überblick über die Art der Kontrollen zu behalten, hinsichtli
-ch Frequenz und damit verbunden, Angemessenheit.
+Es ist sowohl wichtig den Überblick über die Art der Kontrollen zu behalten,
+ hinsichtlich Frequenz und damit verbunden, Angemessenheit.
  Aber auch die Wahl der Instrumente ist wichtig: fortgeschrittene Logmanagement
  und Datamining Applikationen können die Begutachtung der Daten aus ME 1
  (
@@ -4717,8 +4718,8 @@ name "sub:ME-4:-Sorgen"
 \end_layout
 
 \begin_layout Standard
-Um Policies in Unternehmen durchzusetzen, benötigt man eine soziale Strategie.
- Es reicht nicht aus, umfangreiche Regelwerke zur Benutzung von Systemen
+Um Policies in Unternehmen durchzusetzen benötigt man eine soziale Strategie.
+ Es reicht nicht aus umfangreiche Regelwerke zur Benutzung von Systemen
  zu definieren (z.
  B.
  nach DS 5,

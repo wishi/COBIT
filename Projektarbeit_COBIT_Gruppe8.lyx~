@@ -167,13 +167,12 @@ COBIT kann in Unternehmen in Phasen etabliert werden - in verschiedenen
 \end_layout
 
 \begin_layout Itemize
-Innerhalb des Einsatzes können die Kontrollstrukturen verbessert werden
- um die Effizienz von Unternehmensprozessen durch die gewonnen Erkenntnisse
+Innerhalb des Einsatzes können die Kontrollstrukturen verbessert werden,
+ um die Effizienz von Unternehmensprozessen durch die gewonnenen Erkenntnisse
  zu steigern.
  Dies geschieht über die Rückkopplung von Erkenntnissen über die verschiedenen
  Domänen.
- Um dies zu verdeutlichen wurden im folgenden Bericht die Domänen-Schnittstellen
- visualisiert.
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -308,7 +307,7 @@ DS1 - DS13, ME1 - ME4
 \begin_inset Text
 
 \begin_layout Plain Layout
-Marius Ciepluch
+
 \end_layout
 
 \end_inset
@@ -367,7 +366,7 @@ Allgemeines zu COBIT
 \end_layout
 
 \begin_layout Standard
-Im Folgenden allgemeinen Abschnitt werden diese Fragen beantwortet:
+Im Folgenden werden diese Fragen beantwortet:
 \end_layout
 
 \begin_layout Enumerate
@@ -389,7 +388,7 @@ Was Maturity Levels sind: entscheidet man sich COBIT in einem Unternehmen
 
 \begin_layout Enumerate
 Welche Kontrollzyklen und Normen sind zusammen mit COBIT zu betrachten,
- und die Geschäftsanforderungen umzusetzen?
+ um die Geschäftsanforderungen umzusetzen?
 \end_layout
 
 \begin_layout Section
@@ -415,8 +414,8 @@ ion, Technikbündel), andererseits über die Ebenen hinweg als Führungsaufgaben
 \end_layout
 
 \begin_layout Standard
-COBIT unterstützt das IT-Management um Risiken abzuwägen und Kontrolle über
- Investitionen zu behalten (Betriebswirtschaftliche IT).
+COBIT unterstützt das IT-Management, um Risiken abzuwägen und Kontrolle
+ über Investitionen zu behalten (Betriebswirtschaftliche IT).
  Anwender von IT Diensten sollen beim fachgerechten und gewissenhaften Einsatz
  der IT unterstützt werden (Produkt IT).
  Revisoren, Wirtschaftsprüfer oder IT Spezialisten sollen ihre Analysen
@@ -439,6 +438,10 @@ Das COBIT Framework richtet sich vor allem an Unternehmen, in denen IT durch
  her zum Aufbau von weitreichenden IT Kontrollstrukturen eignen.
  Dies wird jedoch im nachfolgenden Bericht nicht vertieft.
  
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -447,7 +450,14 @@ Aufbau von COBIT in Domänen
 
 \begin_layout Standard
 COBIT hat vier Hauptdomänen, in denen sich die Prozesse mit ihren Kontroll-Ziele
-n befinden:
+n befinden (nach 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "ISACA"
+
+\end_inset
+
+):
 \end_layout
 
 \begin_layout Itemize
@@ -634,19 +644,12 @@ Informationen
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 Die Realisierung der Aktivitäten ist methodisch offen, d.
  h.
  COBIT strukturiert zwar Prozesse thematisch in Domänen, gibt aber keine
  fixierte Art der Realisierung, was zur Akzeptanzförderung beiträgt.
- Hilfreiche Modellierungskonzepte, wie man zu notwendigen Kennzahlen kommt
- für das Unternehmen, sind unter dem Abschnitt Kontrollzyklen und Normen
+ Hilfreiche Modellierungskonzepte, wie man zu notwendigen Kennzahlen für
+ das Unternehmen kommt, sind unter dem Abschnitt Kontrollzyklen und Normen
  aufgeführt (
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -659,7 +662,7 @@ reference "sub:Kontrollzyklen-und-Normen"
 
 \begin_layout Standard
 Es gibt keine Aufführung von Management-Instrumenten, keine Verteilung von
- Verantwortlichkeiten und wenige Rollen- und Berechtigungskonzepte.
+ Verantwortlichkeiten, und wenige Rollen- und Berechtigungskonzepte.
  Funktionstrennung und Schnittstellenüberwachung sind nicht im Framework
  konkretisiert.
 \end_layout
@@ -693,13 +696,19 @@ target "http://www.isaca.org/Knowledge-Center/cobit/Pages/COBIT-Case-Study-Banco
 Zur Etablierung von COBIT existieren Reifegrade, die die Tiefe der Etablierung
  des Frameworks in Unternehmen charakterisieren.
  Mit Leveln können auch bereits existente Prozesse bewertet werden.
- Die Etablierung von COBIT in vorhandenden Unternehmensstrukturen ist ein
+ Die Etablierung von COBIT in vorhandene Unternehmensstrukturen ist ein
  umfassender Bereich, der gesonderte Strategien von Unternehmensausrichtung
- und der Unternehmensarchitektur in Betracht ziehen muss Hilfreich hierzu
- sind Reifegrad Modelle wie CMM (Capability Maturity Model) oder Bewertungsmodel
-le wie SPICE (Software Process Improvement and Capability Determination,
- ISO/IEC 15504).
- 
+ und der Unternehmensarchitektur in Betracht ziehen muss (nach 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "ISACAa"
+
+\end_inset
+
+).
+ Hilfreich hierzu sind Reifegrad Modelle wie CMM (Capability Maturity Model),
+ oder Bewertungsmodelle wie SPICE (Software Process Improvement and Capability
+ Determination, ISO/IEC 15504).
 \end_layout
 
 \begin_layout Subsection
@@ -725,7 +734,7 @@ reference "sub:ME-1:-Überwachen"
  und folgend) unterstützt werden.
  Die Berechnungen sollen Schlüssel-Indikatoren zur Entscheidungsfindung
  liefern.
- Kontrollzyklen können benutzt werden, um Indikatoren zu finden und zu verbesser
+ Kontrollzyklen können benutzt werden um Indikatoren zu finden, und zu verbesser
 n.
  Daher sind sie im Zusammenhang mit COBIT erwähnenswert.
 \begin_inset Newline newline
@@ -734,8 +743,7 @@ n.
 Zum anderen bewegt sich ein Unternehmen innerhalb einer Rechtsform innerhalb
  einer Gesetzgebung, weshalb Normen eine Rolle spielen.
  Diese werden jedoch nur am Rande erwähnt, da sie meist sehr spezifisch
- für das Zielunternehmen sind.
- Ähnlich wie die Organisationsform.
+ für das Zielunternehmen sind; ähnlich wie die Organisationsform.
 \end_layout
 
 \begin_layout Subsubsection
@@ -752,10 +760,10 @@ name "sub:Plan-Do-Check"
 \begin_layout Standard
 \begin_inset Wrap figure
 lines 0
-placement O
+placement o
 overhang 0in
-width "50col%"
-status collapsed
+width "40col%"
+status open
 
 \begin_layout Plain Layout
 \begin_inset Caption
@@ -772,7 +780,7 @@ PDCA Zyklus
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename PDCA.png
-	scale 50
+	scale 40
 
 \end_inset
 
@@ -867,7 +875,7 @@ Balanced Scorecard
 lines 0
 placement o
 overhang 0in
-width "50col%"
+width "40col%"
 status open
 
 \begin_layout Plain Layout
@@ -995,7 +1003,7 @@ reference "fig:Balanced-Scorecard"
 
 \end_inset
 
-), die wiederum Menschen zugute kommen.
+)), die wiederum Menschen zugute kommen.
  Hierzu definiert EFQM ein Punktesystem um Metriken anzusetzen.
 \end_layout
 
@@ -1014,7 +1022,7 @@ name "sub:RACI-Charts"
 Mit RACI Charts können Verantwortlichkeiten in Responsible, Accountable,
  Consulted und Informed unterteilt werden, unter denen Menschen an Prozessen
  beteiligt sind.
- Dies wird Form von Tabellen gemacht (siehe 
+ Dies wird in Form von Tabellen gemacht (siehe 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sub:Beispiel"
@@ -1066,7 +1074,7 @@ Zusammenfassung
 \end_layout
 
 \begin_layout Standard
-Um COBIT anzuwenden ist es hilfreich Modellierungs-Konzepte und Richtlinien
+Um COBIT anzuwenden ist es hilfreich, Modellierungs-Konzepte und Richtlinien
  für die Organisation und den Betrieb von Unternehmen zu kennen.
  Es ist zusammen mit der Anwendung von COBIT festzustellen, welche Instrumente
  das Management benutzen möchte, um zu Kennzahlen zu kommen, und wie diese
@@ -1081,9 +1089,9 @@ Das COBIT Domänen-Modell
 \begin_layout Standard
 Im Folgenden werden die einzelnen Domänen von COBIT exemplarisch beschreiben,
  welche "Plan and Organise", "Acquire and Implement", "Deliver and Support"
- sowie "Monitor and Evaluate".
- Zur beispielhaften Verdeutlichung wurde die FH Lübeck und ihre Unternehmensstru
-ktur betrachtet.
+ sowie "Monitor and Evaluate" sind.
+ Zur beispielhaften Verdeutlichung wurde die FH Lübeck (FHL) und ihre Unternehme
+nsstruktur betrachtet.
 \end_layout
 
 \begin_layout Section
@@ -1095,10 +1103,6 @@ name "sec:PO-Planung-und"
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-Was passiert hier alles, kurz***
 \end_layout
 
 \begin_layout Subsection
@@ -2464,8 +2468,8 @@ underpinning contractors
 \end_inset
 
 .
- Das bedeutet sie sind unter Umständen je nach vertraglicher Bindung und
- Entwicklung wechselbar.
+ Das bedeutet sie sind unter Umständen, je nach vertraglicher Bindung und
+ Entwicklung, wechselbar.
 \end_layout
 
 \begin_layout Subsection
@@ -2489,7 +2493,7 @@ reference "sub:DS1"
 
 ) getroffenen Service Level Absprachen betrachtet.
  Eine Lieferung stellt ein Risiko dar: Vorkasse, Versicherung, Beschädigung,
- Pünktlichkeit sind Aspekte die dies im Unternehmensalltag verdeutlichen.
+ Pünktlichkeit sind Aspekte, die dies im Unternehmensalltag verdeutlichen.
  Die Rollen der Verantwortlichen müssen klar festgelegt werden.
  Dies kann über RACI Charts (
 \begin_inset CommandInset ref
@@ -2630,10 +2634,10 @@ name "sub:DS-5:-Security"
 
 \begin_layout Standard
 Sicherheit in Unternehmen muss effizient sein, sollte jedoch idealerweise
- die Arbeitsprozesse nicht zu behindern.
+ die Arbeitsprozesse nicht behindern.
  Dennoch haben die Anforderungen an Sicherheit heutzutage eine hohe Dynamik.
- Unternehmen, die mit Kredikarten Daten arbeiten, müssen beispielsweise
- Zertifikate über Complicance Audits erlangen, wie PCI DSS (V2 nach 
+ Unternehmen, die mit Kredikarten-Daten arbeiten, müssen beispielsweise
+ Zertifikate über Complicance Audits erlangen; wie PCI DSS (V2 nach 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Procedures2010"
@@ -2648,8 +2652,9 @@ ogen gelistet.
 \end_inset
 
 Die Ergebnisse von externen oder internen Tests und Audits müssen betrachtet
- werden, das heißt es muss ein Internes Report Management geben, welches
- Security Baselines und Complicance Strategien (können nach DS 1 
+ werden.
+ Das heißt, es muss ein Internes Report Management geben, welches Security
+ Baselines und Complicance Strategien (können nach DS 1 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sub:DS1"
@@ -3287,10 +3292,13 @@ Signale und Systeme
 
 \begin_layout Standard
 Im Folgenden ein RACI Chart für diesen Prozess:
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float table
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Caption
@@ -4797,20 +4805,29 @@ Zusammenfassung
 \end_layout
 
 \begin_layout Standard
-Detailliertere Zusammenfassung der dargestellten Sachverhalte als das Executive
- Summary in Abschnitt 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "sec:Executive-Summary"
+Das COBIT Framework ist ein umfassendes Mittel zu einem sich selbst verbessernde
+n Aufbau von Kontrolle durch IT Management in einem Unternehmen.
+ COBIT kann mit Frameworks aus Bereichen der Qualitätssicherung und jeweilig
+ gültigen Normen kombiniert werden.
+ Unternehmen sind selbstverantwortlich für die Ermittlung der Kennzahlen
+ um Erfolg messbar zu halten.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Die einzelnen Prozesse des Frameworks sind oft miteinander verbunden, was
+ den Aufwand zahlreicher Schnittstellen mit sich bringt, weshalb eine Strategie
+ zur Etablierung von entscheidender Wichtigkeit sein kann.
+ Mit dem Framework steht ein erprobtes Werkzeug zur Verfügung, das auch
+ mit TOGAF kombiniert werden kann, um eine Enterprise Architecture zu entwickeln
+ und zu kontrollieren (nach 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "ISACAb"
 
 \end_inset
 
-.
-\end_layout
-
-\begin_layout Standard
-Kernaussagen mit Verweisen auf Ihre Abschnitte zusammenführend und den Gesamtkon
-text berücksichtigend auf den Punkt bringen.
+).
 \end_layout
 
 \begin_layout Standard
