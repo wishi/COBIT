@@ -228,9 +228,7 @@ Autor
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
-MatrNr
+Gruppe
 \end_layout
 
 \end_inset
@@ -261,7 +259,7 @@ Alexander Wegner
 \begin_inset Text
 
 \begin_layout Plain Layout
-123456
+Gruppe 8
 \end_layout
 
 \end_inset
@@ -290,7 +288,7 @@ Marius Ciepluch
 \begin_inset Text
 
 \begin_layout Plain Layout
-654321
+Gruppe 8
 \end_layout
 
 \end_inset
@@ -671,12 +669,6 @@ Maturity Levels
 \end_layout
 
 \begin_layout Standard
-Zur Etablierung von COBIT existieren Reifegrade, die die Tiefe der Etablierung
- des Frameworks in Unternehmen charakterisieren.
- Mit diesen Leveln können auch bereits existente Prozesse bewertet werden.
-\end_layout
-
-\begin_layout Standard
 \begin_inset Quotes gld
 \end_inset
 
@@ -694,9 +686,20 @@ target "http://www.isaca.org/Knowledge-Center/cobit/Pages/COBIT-Case-Study-Banco
 \end_inset
 
 ).
+ 
+\end_layout
+
+\begin_layout Standard
+Zur Etablierung von COBIT existieren Reifegrade, die die Tiefe der Etablierung
+ des Frameworks in Unternehmen charakterisieren.
+ Mit Leveln können auch bereits existente Prozesse bewertet werden.
  Die Etablierung von COBIT in vorhandenden Unternehmensstrukturen ist ein
  umfassender Bereich, der gesonderte Strategien von Unternehmensausrichtung
- und der Unternehmensarchitektur in Betracht ziehen muss.
+ und der Unternehmensarchitektur in Betracht ziehen muss Hilfreich hierzu
+ sind Reifegrad Modelle wie CMM (Capability Maturity Model) oder Bewertungsmodel
+le wie SPICE (Software Process Improvement and Capability Determination,
+ ISO/IEC 15504).
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -708,6 +711,31 @@ name "sub:Kontrollzyklen-und-Normen"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+COBIT wird benutzt um unternehmensweit gezielte Controlling Strukturen aufzubaue
+n, die durch ME 1 (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:ME-1:-Überwachen"
+
+\end_inset
+
+ und folgend) unterstützt werden.
+ Die Berechnungen sollen Schlüssel-Indikatoren zur Entscheidungsfindung
+ liefern.
+ Kontrollzyklen können benutzt werden, um Indikatoren zu finden und zu verbesser
+n.
+ Daher sind sie im Zusammenhang mit COBIT erwähnenswert.
+\begin_inset Newline newline
+\end_inset
+
+Zum anderen bewegt sich ein Unternehmen innerhalb einer Rechtsform innerhalb
+ einer Gesetzgebung, weshalb Normen eine Rolle spielen.
+ Diese werden jedoch nur am Rande erwähnt, da sie meist sehr spezifisch
+ für das Zielunternehmen sind.
+ Ähnlich wie die Organisationsform.
 \end_layout
 
 \begin_layout Subsubsection
@@ -724,10 +752,10 @@ name "sub:Plan-Do-Check"
 \begin_layout Standard
 \begin_inset Wrap figure
 lines 0
-placement r
+placement O
 overhang 0in
 width "50col%"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Caption
@@ -794,8 +822,40 @@ target "http://de.wikipedia.org/w/index.php?title=Datei:PDCA-Kreis_%28Qualit%C3%
 \end_layout
 
 \begin_layout Standard
-Mit dem PDCA Zyklus werden allgemein Vorgehensweisen aus dem Management
- beschrieben.
+Mit dem PDCA Zyklus werden allgemein Vorgehensweisen des Managements beschrieben
+: es gibt eine Planungs-, Handlungs-, Kontroll- und Handlungs-Phase.
+ Innerhalb von COBIT werden domänen-spezifisch die beteiligten Aufgabenfelder
+ in Prozessen beschreiben, die sich in diesen Zyklus aufteilen lassen: Plan
+ (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:PO-Planung-und"
+
+\end_inset
+
+), Do (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Delivery-und-Support"
+
+\end_inset
+
+), Check (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Monitoring-und-Evaluation"
+
+\end_inset
+
+), Act (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:AI-Akquisition-und"
+
+\end_inset
+
+).
+ 
 \end_layout
 
 \begin_layout Subsubsection
@@ -806,13 +866,9 @@ Balanced Scorecard
 \begin_inset Wrap figure
 lines 0
 placement o
-overhang 0col%
+overhang 0in
 width "50col%"
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption
@@ -929,15 +985,17 @@ reference "sub:Plan-Do-Check"
 ) von größeren Managementsystemen zu liefern.
  Es umfasst drei Säulen (Menschen, Prozesse und Ergebnisse), die miteinander
  in Beziehung gesetzt werden: Menschen arbeiten in Prozessen (Teile der
- COBIT Domänen) und erwirtschaften Ergebnisse (möglichst messbar durch Scorecard
-s (
+ COBIT Domänen) und erwirtschaften Ergebnisse (möglichst messbar durch Kennzahle
+n z.
+ B.
+ aus Scorecards (
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Balanced-Scorecard"
 
 \end_inset
 
-)), die wiederum Menschen zugute kommen.
+), die wiederum Menschen zugute kommen.
  Hierzu definiert EFQM ein Punktesystem um Metriken anzusetzen.
 \end_layout
 
@@ -956,7 +1014,14 @@ name "sub:RACI-Charts"
 Mit RACI Charts können Verantwortlichkeiten in Responsible, Accountable,
  Consulted und Informed unterteilt werden, unter denen Menschen an Prozessen
  beteiligt sind.
- Dies wird Form von Tabellen gemacht.
+ Dies wird Form von Tabellen gemacht (siehe 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Beispiel"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Subsubsection
@@ -972,8 +1037,8 @@ name "sub:Fault-Tree-Analysis"
 
 \begin_layout Standard
 Bei Fault Tree Analysis geht es um die Erzeugung von Ereignis-Bäumen, die
- aufeinander folgende Wenn-Dann Situationen hinsichtlich Komponentenausfällen
- in einer Baum Struktur visualisieren.
+ aufeinander folgende Wenn-Dann Situationen hinsichtlich wahrscheinlicher
+ Komponentenausfälle in einer Baum Struktur visualisieren.
 \end_layout
 
 \begin_layout Subsubsection
@@ -991,7 +1056,9 @@ name "sub:Normen"
 Für den Aufbau von Unternehmensstrukturen, Finanzplänen und IT Infrastruktur
  gibt es Normen, Compliance Richtlinien und Gesetze.
  Je nach Art und Standort des Unternehmens kann die Erfüllung eines Konformitäts
-anspruches verpflichtend sein.
+anspruches verpflichtend sein oder finanzielle Vorteile (z.
+ B.
+ hinsichtlich Versicherungsprämie) haben.
 \end_layout
 
 \begin_layout Subsection
@@ -1001,7 +1068,10 @@ Zusammenfassung
 \begin_layout Standard
 Um COBIT anzuwenden ist es hilfreich Modellierungs-Konzepte und Richtlinien
  für die Organisation und den Betrieb von Unternehmen zu kennen.
- 
+ Es ist zusammen mit der Anwendung von COBIT festzustellen, welche Instrumente
+ das Management benutzen möchte, um zu Kennzahlen zu kommen, und wie diese
+ bewertet werden sollen.
+ COBIT selbst definiert hier keine festen Methoden.
 \end_layout
 
 \begin_layout Chapter
@@ -1018,6 +1088,13 @@ ktur betrachtet.
 
 \begin_layout Section
 PO Planung und Organisation
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:PO-Planung-und"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1813,6 +1890,13 @@ Und zuletzt noch ein Beispiel für Qualitätsmanagement: An der FH müssen
 
 \begin_layout Section
 AI Akquisition und Implementierung
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:AI-Akquisition-und"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -2316,6 +2400,13 @@ Ein Lernraum ist eine komplexe Umgebung und um eine Korrekte Nutzung des
 
 \begin_layout Section
 Delivery und Support
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Delivery-und-Support"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3148,6 +3239,13 @@ reference "sub:DS-4:-Continuity"
 
 \begin_layout Subsection
 Beispiel
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Beispiel"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3193,10 +3291,6 @@ Im Folgenden ein RACI Chart für diesen Prozess:
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption
@@ -4458,6 +4552,13 @@ Die Laborräume sollten zur Zeit des Praktikums verfügbar sein, und voll
 
 \begin_layout Section
 Monitoring und Evaluation
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Monitoring-und-Evaluation"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4680,7 +4781,8 @@ Der eMail Verkehr der FHL soll ausgewertet werden.
  die Idee an konkrete rechtliche Grenzen (ME 3).
  Daher werden unternehmensweite Informationsmails vom Präsidium (Executive
  Buy-In nach ME 4) der FHL versandt, in dem die Maßnahmen umfassend begründet
- werden, da es für das interne Netz eine Sicherheitsverantwortung gibt.
+ werden, da es für das interne Netz der Institution eine gesetzliche Sicherheits
+verantwortung gibt.
 \end_layout
 
 \begin_layout Standard
