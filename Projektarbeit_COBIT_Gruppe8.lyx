@@ -45,6 +45,7 @@ logicalmkup
 \pdf_colorlinks true
 \pdf_backref false
 \pdf_pdfusetitle true
+\pdf_quoted_options "linkcolor=black, urlcolor=blue, filecolor=blue"
 \papersize default
 \use_geometry true
 \use_amsmath 1
